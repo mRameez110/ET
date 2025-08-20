@@ -1,3 +1,7 @@
-* {
-  background-color: aqua;
+/* *{
+    background-color: aqua;
+} */
+
+.col_name {
+  height: 70px;
 }
