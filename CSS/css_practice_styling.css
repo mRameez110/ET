@@ -2,16 +2,12 @@
     background-color: aqua;
 } */
 
-
 .col_name {
-
-    height: 70px;
-    width: 500px;
-    background-color: blue;
+  height: 70px;
+  width: 500px;
+  background-color: blue;
 }
 
-
-
-
-
-
+.rgb {
+  height: 70px;
+}
