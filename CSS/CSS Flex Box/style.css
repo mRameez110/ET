@@ -14,8 +14,9 @@
   width: 400px;
 }
 
-.iner{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.iner {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  align-self: flex-end;
 }
