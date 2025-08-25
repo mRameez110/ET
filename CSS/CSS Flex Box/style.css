@@ -7,4 +7,5 @@
 .outer {
   margin: auto;
   background-color: green;
+  display: flex;
 }
