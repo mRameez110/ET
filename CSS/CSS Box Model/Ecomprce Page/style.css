@@ -50,4 +50,5 @@ body {
     url("https://via.placeholder.com/1500x800") center/cover no-repeat;
   display: flex;
   align-items: center;
+  color: white;
 }
