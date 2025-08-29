@@ -51,7 +51,9 @@ body {
   display: flex;
   align-items: center;
   color: white;
-      text-align: center;
+  text-align: center;
 }
 
-
+.hero-content h2 {
+  font-size: 3rem;
+}
