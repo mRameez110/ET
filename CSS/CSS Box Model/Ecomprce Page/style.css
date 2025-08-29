@@ -43,3 +43,7 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
+.hero {
+  height: 60vh;
+}
