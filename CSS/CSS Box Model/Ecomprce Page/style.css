@@ -77,3 +77,7 @@ body {
 .btn:hover {
   background-color: #e55347;
 }
+
+.products {
+  padding: 50px 0;
+}
