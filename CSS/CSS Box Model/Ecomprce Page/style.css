@@ -73,3 +73,7 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
+.btn:hover {
+  background-color: #e55347;
+}
