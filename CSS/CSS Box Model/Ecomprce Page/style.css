@@ -155,4 +155,7 @@ body {
   .hero-content p {
     font-size: 1rem;
   }
+  .product-container {
+    justify-content: center;
+  }
 }
