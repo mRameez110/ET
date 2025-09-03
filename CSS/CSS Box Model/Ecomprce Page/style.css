@@ -145,4 +145,7 @@ body {
     flex-direction: column;
     margin-top: 10px;
   }
+  .navbar-links li {
+    margin: 10px 0;
+  }
 }
