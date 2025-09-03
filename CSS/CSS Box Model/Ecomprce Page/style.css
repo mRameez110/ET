@@ -119,3 +119,7 @@ body {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
+
+.product-card .price {
+  font-size: 1.2rem;
+}
