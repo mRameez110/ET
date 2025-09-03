@@ -123,4 +123,5 @@ body {
 .product-card .price {
   font-size: 1.2rem;
   color: #555;
+  margin-bottom: 15px;
 }
