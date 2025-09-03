@@ -137,5 +137,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  
+  .navbar-container {
+    flex-direction: column;
+  }
 }
