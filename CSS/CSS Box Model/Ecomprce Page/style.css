@@ -162,4 +162,7 @@ body {
     width: 200px;
     margin: 10px;
   }
+  .footer p {
+    font-size: 1rem;
+  }
 }
