@@ -148,4 +148,8 @@ body {
   .navbar-links li {
     margin: 10px 0;
   }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
 }
