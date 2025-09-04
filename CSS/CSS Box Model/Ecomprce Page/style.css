@@ -174,4 +174,7 @@ body {
   .hero-content p {
     font-size: 0.9rem;
   }
+  .product-card {
+    width: 150px;
+  }
 }
