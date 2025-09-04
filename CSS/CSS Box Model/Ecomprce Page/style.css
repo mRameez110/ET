@@ -180,4 +180,7 @@ body {
   .product-card h3 {
     font-size: 1.2rem;
   }
+  .footer p {
+    font-size: 0.9rem;
+  }
 }
