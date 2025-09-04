@@ -14,8 +14,8 @@ body {
 
 .navbar {
   background: #333;
-  color: white;
   padding: 15px 0;
+  color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -44,11 +44,13 @@ body {
   font-weight: bold;
 }
 
+/* Hero Section */
 .hero {
   height: 60vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://via.placeholder.com/1500x800") center/cover no-repeat;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
@@ -61,6 +63,7 @@ body {
 
 .hero-content p {
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -78,6 +81,7 @@ body {
   background-color: #e55347;
 }
 
+/* Products Section */
 .products {
   padding: 50px 0;
   background-color: #fff;
@@ -101,17 +105,14 @@ body {
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  margin: 20px;
   width: 250px;
+  margin: 20px;
   transition: transform 0.3s;
 }
 
 .product-card img {
   width: 100%;
   border-radius: 10px;
-}
-
-.product-card img {
   margin-bottom: 15px;
 }
 
@@ -133,18 +134,24 @@ body {
 .footer {
   background-color: #333;
   color: white;
+  text-align: center;
   padding: 20px 0;
 }
 
+/* Media Queries for Responsiveness */
+
+/* For smaller devices like tablets and phones */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
     text-align: center;
   }
+
   .navbar-links {
     flex-direction: column;
     margin-top: 10px;
   }
+
   .navbar-links li {
     margin: 10px 0;
   }
@@ -152,34 +159,47 @@ body {
   .hero-content h2 {
     font-size: 2.5rem;
   }
+
   .hero-content p {
     font-size: 1rem;
   }
+
   .product-container {
     justify-content: center;
   }
+
   .product-card {
     width: 200px;
     margin: 10px;
   }
+
   .footer p {
     font-size: 1rem;
   }
 }
 
+/* For mobile devices */
 @media (max-width: 480px) {
   .hero-content h2 {
     font-size: 2rem;
   }
+
   .hero-content p {
     font-size: 0.9rem;
   }
+
   .product-card {
     width: 150px;
   }
+
   .product-card h3 {
     font-size: 1.2rem;
   }
+
+  .product-card .price {
+    font-size: 1rem;
+  }
+
   .footer p {
     font-size: 0.9rem;
   }
