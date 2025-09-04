@@ -168,4 +168,8 @@ body {
 }
 
 @media (max-width: 480px) {
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+  
 }
