@@ -171,5 +171,7 @@ body {
   .hero-content h2 {
     font-size: 2rem;
   }
-  
+  .hero-content p {
+    font-size: 0.9rem;
+  }
 }
