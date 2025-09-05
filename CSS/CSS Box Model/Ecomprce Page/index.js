@@ -3,5 +3,7 @@ let cart = [];
 // Adding event listeners for each "Add to Cart" button
 
 document.querySelectorAll(".add-to-cart").forEach((button) => {
-    
+    button.addEventListener("click", function () {
+      
+  });
 });
