@@ -7,5 +7,6 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
     const productName =
       this.previousElementSibling.previousElementSibling.innerText;
     cart.push(productName);
+    alert(productName + " has been added to the cart!");
   });
 });
