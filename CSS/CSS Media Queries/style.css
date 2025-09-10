@@ -16,3 +16,9 @@ div {
     background-color: blue;
   }
 }
+
+@media (min-width: 700px) {
+  div {
+    background-color: green;
+  }
+}
