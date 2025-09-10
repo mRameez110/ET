@@ -24,10 +24,7 @@ div {
 }
 
 @media (max-width: 300px) {
-        div{
-        background-color: yellow;
-                 
-    }
-}
-
+  div {
+    background-color: yellow;
+  }
 }
