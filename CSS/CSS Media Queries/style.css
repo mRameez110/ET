@@ -10,3 +10,6 @@ div {
   background-color: pink;
   display: flex;
 }
+
+@media (width: 501px) {
+}
