@@ -12,4 +12,7 @@ div {
 }
 
 @media (width: 501px) {
+  div {
+    background-color: blue;
+  }
 }
