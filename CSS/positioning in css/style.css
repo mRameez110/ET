@@ -5,3 +5,7 @@ div {
   width: 100px;
   display: inline-block;
 }
+
+.box2 {
+  background-color: red;
+}
