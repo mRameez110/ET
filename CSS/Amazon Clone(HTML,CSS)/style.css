@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  border: border-box;
 }
 
 .navbar {
@@ -33,6 +33,8 @@
   border: 1.5px solid white;
 }
 
+/* box 2 */
+
 .add-first {
   color: #cccccc;
   font-size: 0.85rem;
@@ -43,18 +45,21 @@
   font-size: 1rem;
   margin-left: 10px;
 }
+
 .add-icon {
   display: flex;
   align-items: center;
 }
 
+/* box 3 */
+
 .nav-search {
   display: flex;
   justify-content: space-evenly;
+  background-color: pink;
   width: 620px;
   height: 40px;
   border-radius: 4px;
-  background-color: pink;
 }
 
 .nav-search:hover {
@@ -83,6 +88,8 @@
   border-bottom-right-radius: 4px;
 }
 
+/* box 4  & box 5*/
+
 span {
   font-size: 0.7rem;
 }
@@ -91,6 +98,8 @@ span {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+/* box 6 */
 
 .nav-cart {
   font-size: 0.85rem;
@@ -101,6 +110,8 @@ span {
 
 .nav-cart i {
   width: 40px;
+  /* color: pink; */
   font-size: 30px;
-  color: pink;
 }
+
+/* nav bar styling completed */
