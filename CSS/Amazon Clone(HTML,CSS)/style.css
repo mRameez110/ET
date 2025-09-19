@@ -38,3 +38,12 @@
   font-size: 0.85rem;
   margin-left: 20px;
 }
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
