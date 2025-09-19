@@ -24,3 +24,7 @@
   background-size: cover;
   background-image: url("./images/amazon-logo6.webp");
 }
+
+.border {
+  border: 2px solid transparent;
+}
