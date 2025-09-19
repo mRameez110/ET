@@ -21,4 +21,6 @@
 .logo {
   height: 50px;
   width: 100%;
+  background-size: cover;
+  background-image: url("./images/amazon-logo6.webp");
 }
