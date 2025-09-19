@@ -60,3 +60,10 @@
 .nav-search:hover {
   border: 2px solid orange;
 }
+
+.search-select {
+  background-color: #efefef;
+  width: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
