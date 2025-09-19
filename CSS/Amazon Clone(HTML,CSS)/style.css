@@ -71,3 +71,10 @@
 .search-input {
   width: 100%;
 }
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
