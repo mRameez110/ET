@@ -23,4 +23,7 @@ body {
 .navbar-container {
   width: 90%;
   margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
