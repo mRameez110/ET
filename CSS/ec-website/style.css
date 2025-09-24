@@ -10,3 +10,9 @@ body {
   background-color: #f4f4f3;
   color: #333;
 }
+
+.navbar {
+  background-color: darkgray;
+  padding: 15px 0;
+  color: white;
+}
