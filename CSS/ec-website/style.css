@@ -27,3 +27,9 @@ body {
   display: flex;
   align-items: center;
 }
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  /* background-color: green; */
+}
