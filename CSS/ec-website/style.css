@@ -60,3 +60,8 @@ body {
 #home h2 {
   font-size: 40px;
 }
+
+#home p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
