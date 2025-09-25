@@ -73,3 +73,7 @@ body {
   border-radius: 50px;
   text-decoration: none;
 }
+
+.btn:hover {
+  background-color: #e55347;
+}
