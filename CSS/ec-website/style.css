@@ -95,3 +95,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.product-card {
+  background-color: gainsboro;
+}
