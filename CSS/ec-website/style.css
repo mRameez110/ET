@@ -98,4 +98,7 @@ body {
 
 .product-card {
   background-color: gainsboro;
+  width: auto;
+  padding: 4px;
+  margin: 20px;
 }
