@@ -121,3 +121,8 @@ body {
 .product-card:hover {
   transform: translateY(-10px);
 }
+
+.contact {
+  line-height: 50px;
+  background-color: pink;
+}
