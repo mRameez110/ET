@@ -105,3 +105,9 @@ body {
   text-align: center;
   transition: transform 0.3s;
 }
+
+.product-card img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
