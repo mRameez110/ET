@@ -102,4 +102,6 @@ body {
   padding: 4px;
   margin: 20px;
   border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s;
 }
