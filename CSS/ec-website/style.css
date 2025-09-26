@@ -117,3 +117,7 @@ body {
   color: green;
   margin-bottom: 15px;
 }
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
