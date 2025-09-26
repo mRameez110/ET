@@ -111,3 +111,9 @@ body {
   margin-bottom: 20px;
   border-radius: 20px;
 }
+
+.price {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 15px;
+}
