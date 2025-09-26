@@ -84,3 +84,8 @@ body {
   background-color: white;
   text-align: center;
 }
+
+.product-title {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
