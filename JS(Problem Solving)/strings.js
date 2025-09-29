@@ -28,4 +28,5 @@ let countVowlFunc = (word) => {
       count++;
     }
   }
+  return count;
 };
