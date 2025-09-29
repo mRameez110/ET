@@ -14,3 +14,4 @@ let revStrFunc = (str) => {
   }
   return revStr;
 };
+console.log(revStrFunc("hello")); // Output: 'olleh'
