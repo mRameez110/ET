@@ -40,6 +40,10 @@
 // Solution:
 
 const convertToUpperCase = (str) => {
-    let upperCaseStr = "";
-    
+  let upperCaseStr = "";
+  for (const ch of str) {
+    if (ch >= "a" && ch <= "z") {
+      upperCaseStr += String.fromCharCode(ch.charCodeAt(0) - 32);
+    } else upperCaseStr += ch;
+  }
 };
