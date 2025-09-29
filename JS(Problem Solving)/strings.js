@@ -46,4 +46,5 @@ const convertToUpperCase = (str) => {
       upperCaseStr += String.fromCharCode(ch.charCodeAt(0) - 32);
     } else upperCaseStr += ch;
   }
+  return upperCaseStr;
 };
