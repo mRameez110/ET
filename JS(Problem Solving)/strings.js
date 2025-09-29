@@ -48,3 +48,5 @@ const convertToUpperCase = (str) => {
   }
   return upperCaseStr;
 };
+
+console.log(convertToUpperCase("Hello"));
