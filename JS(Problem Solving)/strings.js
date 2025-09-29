@@ -30,3 +30,4 @@ let countVowlFunc = (word) => {
   }
   return count;
 };
+console.log(countVowlFunc("Rameez"));
