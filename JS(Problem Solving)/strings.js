@@ -5,3 +5,12 @@
 // 🧩 1. Reverse a string manually
 // Input: "hello"
 // Output: "olleh"
+
+//  Solution
+let revStrFunc = (str) => {
+  let revStr = "";
+  for (const char of str) {
+    revStr = char + revStr;
+  }
+  return revStr;
+};
