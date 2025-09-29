@@ -15,3 +15,7 @@ let revStrFunc = (str) => {
   return revStr;
 };
 console.log(revStrFunc("hello")); // Output: 'olleh'
+
+// 🧩 2. Count vowels in a string
+// Input: "programming"
+// Output: 3 (o, a, i)
