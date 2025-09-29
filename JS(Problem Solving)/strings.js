@@ -33,9 +33,13 @@
 // };
 // console.log(countVowlFunc("Rameez"));
 
-
 // 🧩 3. Convert string to uppercase (without .toUpperCase())
 // Input: "abcDEF"
 // Output: "ABCDEF"
 
 // Solution:
+
+const convertToUpperCase = (str) => {
+    let upperCaseStr = "";
+    
+};
