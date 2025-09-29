@@ -23,4 +23,9 @@ console.log(revStrFunc("hello")); // Output: 'olleh'
 let countVowlFunc = (word) => {
   let count = 0;
   const lowerCaseWord = word.toLowerCase();
+  for (const w of lowerCaseWord) {
+    if ("aeiou".includes(w)) {
+      count++;
+    }
+  }
 };
