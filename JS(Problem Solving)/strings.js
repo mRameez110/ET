@@ -19,3 +19,8 @@ console.log(revStrFunc("hello")); // Output: 'olleh'
 // 🧩 2. Count vowels in a string
 // Input: "programming"
 // Output: 3 (o, a, i)
+
+let countVowlFunc = (word) => {
+  let count = 0;
+  const lowerCaseWord = word.toLowerCase();
+};
