@@ -7,27 +7,35 @@
 // Output: "olleh"
 
 //  Solution
-let revStrFunc = (str) => {
-  let revStr = "";
-  for (const char of str) {
-    revStr = char + revStr;
-  }
-  return revStr;
-};
-console.log(revStrFunc("hello")); // Output: 'olleh'
+// let revStrFunc = (str) => {
+//   let revStr = "";
+//   for (const char of str) {
+//     revStr = char + revStr;
+//   }
+//   return revStr;
+// };
+// console.log(revStrFunc("hello")); // Output: 'olleh'
 
 // 🧩 2. Count vowels in a string
 // Input: "programming"
 // Output: 3 (o, a, i)
 
-let countVowlFunc = (word) => {
-  let count = 0;
-  const lowerCaseWord = word.toLowerCase();
-  for (const w of lowerCaseWord) {
-    if ("aeiou".includes(w)) {
-      count++;
-    }
-  }
-  return count;
-};
-console.log(countVowlFunc("Rameez"));
+// Solution
+// let countVowlFunc = (word) => {
+//   let count = 0;
+//   const lowerCaseWord = word.toLowerCase();
+//   for (const w of lowerCaseWord) {
+//     if ("aeiou".includes(w)) {
+//       count++;
+//     }
+//   }
+//   return count;
+// };
+// console.log(countVowlFunc("Rameez"));
+
+
+// 🧩 3. Convert string to uppercase (without .toUpperCase())
+// Input: "abcDEF"
+// Output: "ABCDEF"
+
+// Solution:
