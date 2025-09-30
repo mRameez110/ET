@@ -90,3 +90,4 @@ const findFreqFunc2 = (str) => {
   }
   return frequencyMap;
 };
+console.log(findFreqFunc2("2nd Approach"));
