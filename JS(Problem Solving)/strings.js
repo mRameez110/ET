@@ -39,14 +39,18 @@
 
 // Solution:
 
-const convertToUpperCase = (str) => {
-  let upperCaseStr = "";
-  for (const ch of str) {
-    if (ch >= "a" && ch <= "z") {
-      upperCaseStr += String.fromCharCode(ch.charCodeAt(0) - 32);
-    } else upperCaseStr += ch;
-  }
-  return upperCaseStr;
-};
+// const convertToUpperCase = (str) => {
+//   let upperCaseStr = "";
+//   for (const ch of str) {
+//     if (ch >= "a" && ch <= "z") {
+//       upperCaseStr += String.fromCharCode(ch.charCodeAt(0) - 32);
+//     } else upperCaseStr += ch;
+//   }
+//   return upperCaseStr;
+// };
 
-console.log(convertToUpperCase("Hello"));
+// console.log(convertToUpperCase("Hello"));
+
+// 🧩 4. Check if a string is a palindrome
+// Input: "madam"
+// Output: true
