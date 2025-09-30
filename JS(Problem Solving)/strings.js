@@ -55,12 +55,16 @@
 // Input: "madam"
 // Output: true
 
-const checkPalindromFunc = (str) => {
-  let j = str.length - 1;
-  for (let i = 0; i < str.length / 2; i++) {
-    if (str[i] !== str[j]) return false;
-    else j--;
-  }
-  return true;
-};
-console.log(checkPalindromFunc("madam")); // true
+// const checkPalindromFunc = (str) => {
+//   let j = str.length - 1;
+//   for (let i = 0; i < str.length / 2; i++) {
+//     if (str[i] !== str[j]) return false;
+//     else j--;
+//   }
+//   return true;
+// };
+// console.log(checkPalindromFunc("madam")); // true
+
+// 🧩 5. Find frequency of each character
+// Input: "hello"
+// Output: { h: 1, e: 1, l: 2, o: 1 }
