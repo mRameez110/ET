@@ -61,4 +61,5 @@ const checkPalindromFunc = (str) => {
     if (str[i] !== str[j]) return false;
     else j--;
   }
+  return true;
 };
