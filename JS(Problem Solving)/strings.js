@@ -54,3 +54,7 @@
 // 🧩 4. Check if a string is a palindrome
 // Input: "madam"
 // Output: true
+
+const checkPalindromFunc = (str) => {
+  let j = str.length - 1;
+};
