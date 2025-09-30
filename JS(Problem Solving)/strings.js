@@ -63,3 +63,4 @@ const checkPalindromFunc = (str) => {
   }
   return true;
 };
+console.log(checkPalindromFunc("madam")); // true
