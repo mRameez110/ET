@@ -76,3 +76,5 @@ const findFreqFunc = (str) => {
   }
   return frequencyMap;
 };
+console.log(findFreqFunc("Rameeez"));
+  
