@@ -78,7 +78,10 @@
 // };
 // console.log(findFreqFunc("Rameeez"));
 
-
 // 🧩 5. Find frequency of each character (2nd Approach)
 // Input: "hello"
 // Output: { h: 1, e: 1, l: 2, o: 1 }
+
+const findFreqFunc2 = (str) => {
+  const frequencyMap = {};
+};
