@@ -71,4 +71,7 @@
 
 const findFreqFunc = (str) => {
   const frequencyMap = {};
+  for (const ch of str) {
+    frequencyMap[ch] = (frequencyMap[ch] || 0) + 1;
+  }
 };
