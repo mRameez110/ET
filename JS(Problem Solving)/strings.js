@@ -84,4 +84,8 @@
 
 const findFreqFunc2 = (str) => {
   const frequencyMap = {};
+  for (const ch of str) {
+    if (frequencyMap[ch]) frequencyMap[ch] = frequencyMap[ch] + 1;
+    else frequencyMap[ch] = 1;
+  }
 };
