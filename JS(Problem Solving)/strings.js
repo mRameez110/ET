@@ -132,3 +132,4 @@ const subStrFunc = (str) => {
   }
   return subStr;
 };
+console.log(subStrFunc("abc"));
