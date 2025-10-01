@@ -96,20 +96,32 @@
 // Input: "aabbcc"
 // Output: "abc"
 
-const removeDupFunc = (str) => {
-  let uniqStr = "";
-  let duplicate = false;
-  for (let i = 0; i < str.length; i++) {
-    duplicate = false;
-    for (let j = 0; j < uniqStr.length; j++) {
-      if (str[i] == uniqStr[j]) {
-        duplicate = true;
-      }
-    }
-    if (!duplicate) {
-      uniqStr += str[i];
-    }
-  }
-  return uniqStr;
+// const removeDupFunc = (str) => {
+//   let uniqStr = "";
+//   let duplicate = false;
+//   for (let i = 0; i < str.length; i++) {
+//     duplicate = false;
+//     for (let j = 0; j < uniqStr.length; j++) {
+//       if (str[i] == uniqStr[j]) {
+//         duplicate = true;
+//       }
+//     }
+//     if (!duplicate) {
+//       uniqStr += str[i];
+//     }
+//   }
+//   return uniqStr;
+// };
+// console.log(removeDupFunc("aabbcc"));
+
+// 🧩 7. Print all substrings
+// Input: "abc"
+// Output: "a", "ab", "abc", "b", "bc", "c"
+
+// Solution:
+
+const subStrFunc = (str) => {
+  let current = "";
+  let subStr = "";
+  
 };
-console.log(removeDupFunc("aabbcc"));
