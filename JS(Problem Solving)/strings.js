@@ -112,3 +112,4 @@ const removeDupFunc = (str) => {
   }
   return uniqStr;
 };
+console.log(removeDupFunc("aabbcc"));
