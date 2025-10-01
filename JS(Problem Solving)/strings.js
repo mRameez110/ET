@@ -82,12 +82,21 @@
 // Input: "hello"
 // Output: { h: 1, e: 1, l: 2, o: 1 }
 
-const findFreqFunc2 = (str) => {
-  const frequencyMap = {};
-  for (const ch of str) {
-    if (frequencyMap[ch]) frequencyMap[ch] = frequencyMap[ch] + 1;
-    else frequencyMap[ch] = 1;
-  }
-  return frequencyMap;
+// const findFreqFunc2 = (str) => {
+//   const frequencyMap = {};
+//   for (const ch of str) {
+//     if (frequencyMap[ch]) frequencyMap[ch] = frequencyMap[ch] + 1;
+//     else frequencyMap[ch] = 1;
+//   }
+//   return frequencyMap;
+// };
+// console.log(findFreqFunc2("2nd Approach"));
+
+// 🧩 6. Remove duplicate characters from a string
+// Input: "aabbcc"
+// Output: "abc"
+
+const removeDupFunc = (str) => {
+  let uniqStr = "";
+  let duplicate = false;
 };
-console.log(findFreqFunc2("2nd Approach"));
