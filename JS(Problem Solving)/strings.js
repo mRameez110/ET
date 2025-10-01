@@ -145,5 +145,6 @@ const replaceCharFun = (str) => {
       replacedStr += "x";
     } else replacedStr += str[i];
   }
-  return replacedStr
+  return replacedStr;
 };
+console.log(replaceCharFun("abca")); // Output: xbcx
