@@ -140,4 +140,9 @@
 
 const replaceCharFun = (str) => {
   let replacedStr = "";
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] == "a") {
+      replacedStr += "x";
+    } else replacedStr += str[i];
+  }
 };
