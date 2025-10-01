@@ -123,5 +123,8 @@
 const subStrFunc = (str) => {
   let current = "";
   let subStr = "";
-  
+  for (let i = 0; i < str.length; i++) {
+    current = "";
+  }
+  return subStr;
 };
