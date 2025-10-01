@@ -145,4 +145,5 @@ const replaceCharFun = (str) => {
       replacedStr += "x";
     } else replacedStr += str[i];
   }
+  return replacedStr
 };
