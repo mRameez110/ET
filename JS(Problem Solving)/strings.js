@@ -130,4 +130,5 @@ const subStrFunc = (str) => {
       subStr += current + ",";
     }
   }
+  return subStr;
 };
