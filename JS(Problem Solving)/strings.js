@@ -138,3 +138,6 @@
 // Input: "banana", replace 'a' with 'x'
 // Output: "bxnxnx"
 
+const replaceCharFun = (str) => {
+  let replacedStr = "";
+};
