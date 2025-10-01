@@ -120,16 +120,21 @@
 
 // Solution:
 
-const subStrFunc = (str) => {
-  let current = "";
-  let subStr = "";
-  for (let i = 0; i < str.length; i++) {
-    current = "";
-    for (j = i; j < str.length; j++) {
-      current += str[j];
-      subStr += current + ",";
-    }
-  }
-  return subStr;
-};
-console.log(subStrFunc("abc"));
+// const subStrFunc = (str) => {
+//   let current = "";
+//   let subStr = "";
+//   for (let i = 0; i < str.length; i++) {
+//     current = "";
+//     for (j = i; j < str.length; j++) {
+//       current += str[j];
+//       subStr += current + ",";
+//     }
+//   }
+//   return subStr;
+// };
+// console.log(subStrFunc("abc"));
+
+// 8. Replace a character with another (without using .replace())
+// Input: "banana", replace 'a' with 'x'
+// Output: "bxnxnx"
+
