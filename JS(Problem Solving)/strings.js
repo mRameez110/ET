@@ -99,4 +99,10 @@
 const removeDupFunc = (str) => {
   let uniqStr = "";
   let duplicate = false;
+  for (let i = 0; i < str.length; i++) {
+    duplicate = false;
+   
+    
+  }
+  return uniqStr;
 };
