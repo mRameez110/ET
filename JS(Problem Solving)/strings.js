@@ -153,4 +153,6 @@
 // Input: "apple" and "apple"
 // Output: true
 
-const compStrFun = (str1, str2) => {};
+const compStrFun = (str1, str2) => {
+  if (str1.length != str2.length) return false;
+};
