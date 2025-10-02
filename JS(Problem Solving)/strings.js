@@ -162,3 +162,5 @@ const compStrFun = (str1, str2) => {
   }
   return true;
 };
+
+console.log(compStrFun("abc", "abc")); // true
