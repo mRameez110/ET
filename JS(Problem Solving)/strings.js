@@ -138,13 +138,17 @@
 // Input: "banana", replace 'a' with 'x'
 // Output: "bxnxnx"
 
-const replaceCharFun = (str) => {
-  let replacedStr = "";
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] == "a") {
-      replacedStr += "x";
-    } else replacedStr += str[i];
-  }
-  return replacedStr;
-};
-console.log(replaceCharFun("abca")); // Output: xbcx
+// const replaceCharFun = (str) => {
+//   let replacedStr = "";
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] == "a") {
+//       replacedStr += "x";
+//     } else replacedStr += str[i];
+//   }
+//   return replacedStr;
+// };
+// console.log(replaceCharFun("abca")); // Output: xbcx
+
+// 🧩 9. Compare two strings without == or .localeCompare()
+// Input: "apple" and "apple"
+// Output: true
