@@ -152,3 +152,5 @@
 // 🧩 9. Compare two strings without == or .localeCompare()
 // Input: "apple" and "apple"
 // Output: true
+
+const compStrFun = (str1, str2) => {};
