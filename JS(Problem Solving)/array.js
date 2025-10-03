@@ -1,7 +1,9 @@
 // 1. Sum of Array Elements
-let arr = [1, 2, 3, 4, 5];
-let sum = 0;
-arr.forEach((ele) => {
-  sum = sum + ele;
-});
-console.log(sum);
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+// arr.forEach((ele) => {
+//   sum = sum + ele;
+// });
+// console.log(sum);
+
+// 2. Find the Largest Number in an Array
