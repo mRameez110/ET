@@ -7,3 +7,5 @@
 // console.log(sum);
 
 // 2. Find the Largest Number in an Array
+let arr = [5, 10, 15, 20];
+let max = 0;
