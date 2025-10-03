@@ -26,3 +26,4 @@ for (let i = 0; i < arr.length; i++) {
     tracked.push(arr[i]);
   }
 }
+console.log(uniqArr);
