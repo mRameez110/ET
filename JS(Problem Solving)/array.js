@@ -40,3 +40,8 @@
 
 // 🧩 6. Left rotate the array by 1 place
 // Input: [1, 2, 3, 4] → Output: [2, 3, 4, 1]
+
+// Solution:
+const rotateLeftFunc = (arr) => {
+  
+};
