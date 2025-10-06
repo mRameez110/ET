@@ -32,4 +32,5 @@
 
 const removeDuplFunc2 = (arr) => {
   let uniqueArr = new Set(arr);
+  console.log(uniqueArr);
 };
