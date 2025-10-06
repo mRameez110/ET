@@ -36,3 +36,4 @@ const removeDuplFunc2 = (arr) => {
   uniqueArr = [...uniqueArr];
   console.log(uniqueArr);
 };
+removeDuplFunc2([1, 2, 2, 3, 3, 3]);
