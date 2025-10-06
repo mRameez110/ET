@@ -30,10 +30,13 @@
 
 // Method#2: To remove Duplicate from Array
 
-const removeDuplFunc2 = (arr) => {
-  let uniqueArr = new Set(arr);
-  console.log(uniqueArr);
-  uniqueArr = [...uniqueArr];
-  console.log(uniqueArr);
-};
-removeDuplFunc2([1, 2, 2, 3, 3, 3]);
+// const removeDuplFunc2 = (arr) => {
+//   let uniqueArr = new Set(arr);
+//   console.log(uniqueArr);
+//   uniqueArr = [...uniqueArr];
+//   console.log(uniqueArr);
+// };
+// removeDuplFunc2([1, 2, 2, 3, 3, 3]);
+
+// 🧩 6. Left rotate the array by 1 place
+// Input: [1, 2, 3, 4] → Output: [2, 3, 4, 1]
