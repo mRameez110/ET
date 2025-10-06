@@ -31,5 +31,5 @@
 // Method#2: To remove Duplicate from Array
 
 const removeDuplFunc2 = (arr) => {
- 
+  let uniqueArr = new Set(arr);
 };
