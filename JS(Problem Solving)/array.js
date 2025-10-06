@@ -50,3 +50,4 @@ const rotateLeftFunc = (arr) => {
   arr[arr.length - 1] = temp;
   return arr;
 };
+console.log(rotateLeftFunc([4, 5, 6, 7, 8]));
