@@ -17,13 +17,19 @@
 // console.log(max);
 
 // 5. Remove Duplicates from Array
-let arr = [1, 2, 2, 3, 4, 5, 5, 6];
-const tracked = [];
-const uniqArr = [];
-for (let i = 0; i < arr.length; i++) {
-  if (!tracked.includes(arr[i])) {
-    uniqArr.push(arr[i]);
-    tracked.push(arr[i]);
-  }
-}
-console.log(uniqArr);
+// let arr = [1, 2, 2, 3, 4, 5, 5, 6];
+// const tracked = [];
+// const uniqArr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if (!tracked.includes(arr[i])) {
+//     uniqArr.push(arr[i]);
+//     tracked.push(arr[i]);
+//   }
+// }
+// console.log(uniqArr);
+
+// Method#2: To remove Duplicate from Array
+
+const removeDuplFunc2 = (arr) => {
+ 
+};
