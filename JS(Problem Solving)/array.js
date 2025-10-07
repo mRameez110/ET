@@ -57,4 +57,7 @@
 
 // Solution:
 // 🧩 7. Merge two arrays manually
-const mergedArrayFunc = (arr1, arr2) => {};
+const mergedArrayFunc = (arr1, arr2) => {
+	let mergedArr = [];
+	
+};
