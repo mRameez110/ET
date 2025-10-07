@@ -76,4 +76,11 @@ const findTargetedSumPairs = (arr, target) => {
   let pairs = [];
   let seen = new Set();
   let complement = 0;
+  for (let num of arr) {
+    complement = target - num;
+    if (seen.has(complement)) {
+      pairs.push([complement, num]);
+    }
+    seen.add(num);
+  }
 };
