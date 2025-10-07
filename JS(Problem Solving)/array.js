@@ -58,12 +58,13 @@
 // Solution:
 // 🧩 7. Merge two arrays manually
 const mergedArrayFunc = (arr1, arr2) => {
-	let mergedArr = [];
-	for (let i = 0; i < arr1.length; i++) {
-		mergedArr.push(arr1[i]);
-	}
-	for (let i = 0; i < arr2.length; i++) {
-		mergedArr.push(arr2[i]);
-	}
-	console.log(mergedArr);
+  let mergedArr = [];
+  for (let i = 0; i < arr1.length; i++) {
+    mergedArr.push(arr1[i]);
+  }
+  for (let i = 0; i < arr2.length; i++) {
+    mergedArr.push(arr2[i]);
+  }
+  console.log(mergedArr);
 };
+mergedArrayFunc([1, 2], [3, 4]);
