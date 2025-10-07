@@ -83,4 +83,5 @@ const findTargetedSumPairs = (arr, target) => {
     }
     seen.add(num);
   }
+  return pairs;
 };
