@@ -56,15 +56,19 @@
 // Input: [1, 2] and [3, 4] → Output: [1, 2, 3, 4]
 
 // Solution:
-// 🧩 7. Merge two arrays manually
-const mergedArrayFunc = (arr1, arr2) => {
-  let mergedArr = [];
-  for (let i = 0; i < arr1.length; i++) {
-    mergedArr.push(arr1[i]);
-  }
-  for (let i = 0; i < arr2.length; i++) {
-    mergedArr.push(arr2[i]);
-  }
-  console.log(mergedArr);
-};
-mergedArrayFunc([1, 2], [3, 4]);
+// const mergedArrayFunc = (arr1, arr2) => {
+//   let mergedArr = [];
+//   for (let i = 0; i < arr1.length; i++) {
+//     mergedArr.push(arr1[i]);
+//   }
+//   for (let i = 0; i < arr2.length; i++) {
+//     mergedArr.push(arr2[i]);
+//   }
+//   console.log(mergedArr);
+// };
+// mergedArrayFunc([1, 2], [3, 4]);
+
+// 🧩 8. Find all pairs with a given sum
+// Input: [1, 2, 3, 4], target = 5 → Output: [1, 4], [2, 3]
+
+// Solution
