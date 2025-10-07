@@ -56,3 +56,5 @@
 // Input: [1, 2] and [3, 4] → Output: [1, 2, 3, 4]
 
 // Solution:
+// 🧩 7. Merge two arrays manually
+const mergedArrayFunc = (arr1, arr2) => {};
