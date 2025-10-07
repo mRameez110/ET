@@ -72,3 +72,4 @@
 // Input: [1, 2, 3, 4], target = 5 → Output: [1, 4], [2, 3]
 
 // Solution
+const findTargetedSumPairs = (arr, target) => {};
