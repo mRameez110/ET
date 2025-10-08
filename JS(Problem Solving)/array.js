@@ -88,8 +88,7 @@
 // let res = findTargetedSumPairs([1, 2, 3, 4], 5);
 // console.log(res);
 
-// Method - 2: Brute Force Approach
-
+// Method - 2: Brute Force Approach [O(n^2)]
 // Solution
 
 const findTargetedSumPairs2 = (arr, target) => {
