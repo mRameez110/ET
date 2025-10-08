@@ -72,18 +72,18 @@
 // Input: [1, 2, 3, 4], target = 5 → Output: [1, 4], [2, 3]
 
 // Solution
-const findTargetedSumPairs = (arr, target) => {
-  let pairs = [];
-  let seen = new Set();
-  let complement = 0;
-  for (let num of arr) {
-    complement = target - num;
-    if (seen.has(complement)) {
-      pairs.push([complement, num]);
-    }
-    seen.add(num);
-  }
-  return pairs;
-};
-let res = findTargetedSumPairs([1, 2, 3, 4], 5);
-console.log(res);
+// const findTargetedSumPairs = (arr, target) => {
+//   let pairs = [];
+//   let seen = new Set();
+//   let complement = 0;
+//   for (let num of arr) {
+//     complement = target - num;
+//     if (seen.has(complement)) {
+//       pairs.push([complement, num]);
+//     }
+//     seen.add(num);
+//   }
+//   return pairs;
+// };
+// let res = findTargetedSumPairs([1, 2, 3, 4], 5);
+// console.log(res);
