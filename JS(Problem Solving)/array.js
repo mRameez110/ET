@@ -104,3 +104,4 @@ const findTargetedSumPairs2 = (arr, target) => {
   return pairs;
 };
 let res2 = findTargetedSumPairs2([1, 2, 3, 4], 5);
+console.log(res2);
