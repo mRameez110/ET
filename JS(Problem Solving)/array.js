@@ -92,4 +92,6 @@
 
 // Solution
 
-const findTargetedSumPairs2 = (arr, target) => {};
+const findTargetedSumPairs2 = (arr, target) => {
+  let pairs = [];
+};
