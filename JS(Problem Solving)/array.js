@@ -89,3 +89,7 @@
 // console.log(res);
 
 // Method - 2: Brute Force Approach
+
+// Solution
+
+const findTargetedSumPairs2 = (arr, target) => {};
