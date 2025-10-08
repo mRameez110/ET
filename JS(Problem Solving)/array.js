@@ -101,4 +101,5 @@ const findTargetedSumPairs2 = (arr, target) => {
       }
     }
   }
+  return pairs;
 };
