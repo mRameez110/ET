@@ -87,3 +87,5 @@
 // };
 // let res = findTargetedSumPairs([1, 2, 3, 4], 5);
 // console.log(res);
+
+// Method - 2: Brute Force Approach
