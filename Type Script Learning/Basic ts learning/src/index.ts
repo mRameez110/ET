@@ -48,3 +48,4 @@ function calculateTax(income: number, year: string): number {
 }
 
 let res = calculateTax(22, "2k25");
+console.log(res);
