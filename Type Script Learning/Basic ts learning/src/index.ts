@@ -34,18 +34,20 @@
 
 // ---->  Functions in TypeScript <----
 
-function calculateTax(income: number, year: string): number {
-  console.log(
-    "this is tax calculate function and income is: " +
-      income +
-      " and year is: " +
-      year
-  );
+// function calculateTax(income: number, year: string): number {
+//   console.log(
+//     "this is tax calculate function and income is: " +
+//       income +
+//       " and year is: " +
+//       year
+//   );
 
-  income = 1000;
-  year = "2025";
-  return income;
-}
+//   income = 1000;
+//   year = "2025";
+//   return income;
+// }
 
-let res = calculateTax(22, "2k25");
-console.log(res);
+// let res = calculateTax(22, "2k25");
+// console.log(res);
+
+// ---->  Objects in TypeScript <----
