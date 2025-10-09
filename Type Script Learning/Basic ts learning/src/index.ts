@@ -21,11 +21,13 @@
 // });
 // console.log(numbersArray);
 
-const enum Size {
-  Small = 1,
-  Medium,
-  Large,
-}
+// const enum Size {
+//   Small = 1,
+//   Medium,
+//   Large,
+// }
 
-let mySize: Size = Size.Medium;
-console.log(mySize);
+// let mySize: Size = Size.Medium;
+// console.log(mySize);
+
+// ---->  Functions in TypeScript <----
