@@ -11,6 +11,12 @@
 // let isBeginner: boolean = true;
 // let isPublished;
 
-function render(something: any) {
-  console.log(something);
-}
+// function render(something: any) {
+//   console.log(something);
+// }
+
+let numbersArray = [1, 2];
+numbersArray.forEach((n) => {
+	console.log(n.toLocaleString());
+});
+console.log(numbersArray);
