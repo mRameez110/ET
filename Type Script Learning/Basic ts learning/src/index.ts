@@ -15,8 +15,17 @@
 //   console.log(something);
 // }
 
-let numbersArray = [1, 2];
-numbersArray.forEach((n) => {
-	console.log(n.toLocaleString());
-});
-console.log(numbersArray);
+// let numbersArray = [1, 2];
+// numbersArray.forEach((n) => {
+// 	console.log(n.toLocaleString());
+// });
+// console.log(numbersArray);
+
+const enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+
+let mySize: Size = Size.Medium;
+console.log(mySize);
