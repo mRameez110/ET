@@ -31,3 +31,18 @@
 // console.log(mySize);
 
 // ---->  Functions in TypeScript <----
+
+// ---->  Functions in TypeScript <----
+
+function calculateTax(income: number, year: string): number {
+  console.log(
+    "this is tax calculate function and income is: " +
+      income +
+      " and year is: " +
+      year
+  );
+
+  income = 1000;
+  year = "2025";
+  return income;
+}
