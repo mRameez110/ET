@@ -51,3 +51,8 @@
 // console.log(res);
 
 // ---->  Objects in TypeScript <----
+
+const employee: { id: number; name: string; age?: number } = {
+  id: 3,
+  name: "",
+};
