@@ -46,3 +46,5 @@ function calculateTax(income: number, year: string): number {
   year = "2025";
   return income;
 }
+
+let res = calculateTax(22, "2k25");
