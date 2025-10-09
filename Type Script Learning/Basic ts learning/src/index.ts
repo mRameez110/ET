@@ -52,7 +52,15 @@
 
 // ---->  Objects in TypeScript <----
 
-const employee: { id: number; name: string; age?: number } = {
+// const employee: { id: number; name: string; age?: number } = {
+//   id: 3,
+//   name: "",
+// };
+
+const employee: { id: number; name: string; [key: string]: any } = {
   id: 3,
   name: "",
 };
+
+employee.age = 24;
+console.log(employee);
