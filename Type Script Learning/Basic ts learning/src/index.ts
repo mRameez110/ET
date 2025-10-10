@@ -66,3 +66,8 @@
 // console.log(employee);
 
 // ---->  Type Alias in TypeScript <----
+
+// type Employee = {
+//   id: number;
+//   name: string;
+// };
