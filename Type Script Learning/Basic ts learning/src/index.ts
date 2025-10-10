@@ -91,4 +91,5 @@
 // score = "50";
 // console.log(typeof score);
 
-let dataArr: number[] = [1, 2, 3]
+// let dataArr: number[] = [1, 2, 3]
+let dataArr: number[] = [1, 2, "4"]; // string not allow to number array
