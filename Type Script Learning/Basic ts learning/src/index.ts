@@ -67,13 +67,13 @@
 
 // ---->  Type Alias in TypeScript <----
 
-type Employee = {
-  id: number;
-  name: string;
-};
+// type Employee = {
+//   id: number;
+//   name: string;
+// };
 
-// use type alias here
-let employee: Employee = {
-  id: 2,
-  name: "John",
-};
+// // use type alias here
+// let employee: Employee = {
+//   id: 2,
+//   name: "John",
+// };
