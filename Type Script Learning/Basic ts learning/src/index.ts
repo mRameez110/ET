@@ -88,3 +88,5 @@
 let score: string | number;
 score = 40;
 console.log(typeof score);
+score = "50";
+console.log(typeof score);
