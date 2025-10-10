@@ -77,3 +77,10 @@
 //   id: 2,
 //   name: "John",
 // };
+
+// ---->  Union Types in TypeScript <----
+
+// let unionTypeExample: number | string;
+// unionTypeExample = 22;
+// unionTypeExample = "22kg";
+// console.log(typeof unionTypeExample);
