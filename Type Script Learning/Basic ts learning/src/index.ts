@@ -84,3 +84,7 @@
 // unionTypeExample = 22;
 // unionTypeExample = "22kg";
 // console.log(typeof unionTypeExample);
+
+// let score: string | number;
+// score = 40;
+// console.log(typeof score);
