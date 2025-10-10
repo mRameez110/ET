@@ -92,4 +92,6 @@
 // console.log(typeof score);
 
 // let dataArr: number[] = [1, 2, 3]
-let dataArr: number[] = [1, 2, "4"]; // string not allow to number array
+// let dataArr: number[] = [1, 2, "4"]; // string not allow to number array
+
+let dataArr2: number[] | string[] = [1, 2, "3"]; // It means allow array of may be number or sting
