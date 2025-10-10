@@ -57,10 +57,12 @@
 //   name: "",
 // };
 
-const employee: { id: number; name: string; [key: string]: any } = {
-  id: 3,
-  name: "",
-};
+// const employee: { id: number; name: string; [key: string]: any } = {
+//   id: 3,
+//   name: "",
+// };
 
-employee.age = 24;
-console.log(employee);
+// employee.age = 24;
+// console.log(employee);
+
+// ---->  Type Alias in TypeScript <----
