@@ -118,13 +118,13 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  null/undefined Types in TypeScript <----
 
-function greet(name: string | null | undefined) {
-  if (name) console.log(name.toUpperCase());
-  else console.log("Hello, no name we get");
-}
-greet(null);
+// function greet(name: string | null | undefined) {
+//   if (name) console.log(name.toUpperCase());
+//   else console.log("Hello, no name we get");
+// }
+// greet(null);
 
-function testReturnType(): void {
-  console.log("test return type check function");
-}
-console.log(testReturnType());
+// function testReturnType(): void {
+//   console.log("test return type check function");
+// }
+// console.log(testReturnType());
