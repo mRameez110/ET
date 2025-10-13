@@ -98,3 +98,13 @@
 let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  Intersection in TypeScript <----
+
+type Person = {
+  age: number;
+};
+
+type Name = {
+  name: string;
+};
+
+type intersectionTypeExample = Person & Name;
