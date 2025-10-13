@@ -127,3 +127,4 @@ greet(null);
 function testReturnType(): void {
   console.log("test return type check function");
 }
+console.log(testReturnType());
