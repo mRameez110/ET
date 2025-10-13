@@ -108,3 +108,8 @@ type Name = {
 };
 
 type intersectionTypeExample = Person & Name;
+
+let mixvalue: intersectionTypeExample = {
+  age: 22,
+  name: "John",
+};
