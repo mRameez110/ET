@@ -123,3 +123,7 @@ function greet(name: string | null | undefined) {
   else console.log("Hello, no name we get");
 }
 greet(null);
+
+function testReturnType(): void {
+  console.log("test return type check function");
+}
