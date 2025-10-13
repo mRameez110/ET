@@ -99,19 +99,23 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  Intersection in TypeScript <----
 
-type Person = {
-  age: number;
-};
+// type Person = {
+//   age: number;
+// };
 
-type Name = {
-  name: string;
-};
+// type Name = {
+//   name: string;
+// };
 
-type intersectionTypeExample = Person & Name;
+// type intersectionTypeExample = Person & Name;
 
-let mixvalue: intersectionTypeExample = {
-  age: 22,
-  name: "John",
-};
+// let mixvalue: intersectionTypeExample = {
+//   age: 22,
+//   name: "John",
+// };
 
-console.log(mixvalue);
+// console.log(mixvalue);
+
+// ---->  null/undefined Types in TypeScript <----
+
+
