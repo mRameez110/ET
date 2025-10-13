@@ -96,3 +96,5 @@
 
 // let dataArr2: number[] | string[] = [1, 2, "3"]; // It means allow array of may be number or sting
 let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
+
+// ---->  Intersection in TypeScript <----
