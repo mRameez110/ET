@@ -113,3 +113,5 @@ let mixvalue: intersectionTypeExample = {
   age: 22,
   name: "John",
 };
+
+console.log(mixvalue);
