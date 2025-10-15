@@ -128,3 +128,6 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 //   console.log("test return type check function");
 // }
 // console.log(testReturnType());
+
+// ---->  JS bad Behavior in TypeScript <----
+
