@@ -131,3 +131,6 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  JS bad Behavior in TypeScript <----
 
+function createUser(user: { name: string; isPaid: boolean }) {
+  return user;
+}
