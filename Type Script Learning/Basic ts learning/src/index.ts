@@ -135,3 +135,4 @@ function createUser(user: { name: string; isPaid: boolean }) {
   return user;
 }
 console.log(createUser({ name: "rameez", isPaid: false }));
+console.log(createUser({ name: "rameez", isPaid: false, email: "rameez@gmail.com" }));
