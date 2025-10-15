@@ -145,3 +145,5 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 // };
 // // now no error, that is bad behavior of TS for objects
 // console.log(createUser(newUser));
+
+// ---->  Tuple in TypeScript <----
