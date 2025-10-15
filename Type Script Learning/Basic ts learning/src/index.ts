@@ -150,4 +150,4 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 let tUser: [number, string, boolean] = [1, "rameez", true];
 tUser = [2, "rameez 2", false];
-tUser = [false, "rameez 2", 2]; // error
+// tUser = [false, "rameez 2", 2]; // error
