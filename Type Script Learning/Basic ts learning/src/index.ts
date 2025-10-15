@@ -134,3 +134,4 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 function createUser(user: { name: string; isPaid: boolean }) {
   return user;
 }
+console.log(createUser({ name: "rameez", isPaid: false }));
