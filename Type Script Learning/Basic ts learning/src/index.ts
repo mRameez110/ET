@@ -147,3 +147,5 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 // console.log(createUser(newUser));
 
 // ---->  Tuple in TypeScript <----
+
+// let tUser: [number, string, boolean] = [1, "rameez", true];
