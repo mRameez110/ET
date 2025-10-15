@@ -131,17 +131,17 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  JS bad Behavior in TypeScript <----
 
-function createUser(user: { name: string; isPaid: boolean }) {
-  return user;
-}
-// console.log(createUser({ name: "rameez", isPaid: false }));
-// console.log(createUser({ name: "rameez", isPaid: false, email: "rameez@gmail.com" }));
+// function createUser(user: { name: string; isPaid: boolean }) {
+//   return user;
+// }
+// // console.log(createUser({ name: "rameez", isPaid: false }));
+// // console.log(createUser({ name: "rameez", isPaid: false, email: "rameez@gmail.com" }));
 
-// but when i do like this
-let newUser = {
-  name: "rameez 2",
-  email: "rameez@gmail.com 2",
-  isPaid: false,
-};
-// now no error, that is bad behavior of TS for objects
-console.log(createUser(newUser));
+// // but when i do like this
+// let newUser = {
+//   name: "rameez 2",
+//   email: "rameez@gmail.com 2",
+//   isPaid: false,
+// };
+// // now no error, that is bad behavior of TS for objects
+// console.log(createUser(newUser));
