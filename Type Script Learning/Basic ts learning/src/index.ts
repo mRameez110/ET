@@ -157,3 +157,7 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 let score: number[] = [];
 const score2: Array<number> = [];
 const names: Array<string> = [];
+
+function identityOne(val: boolean | number): boolean | number {
+  return val;
+}
