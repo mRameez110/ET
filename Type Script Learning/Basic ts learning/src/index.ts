@@ -153,3 +153,7 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 // tUser = [false, "rameez 2", 2]; // error
 
 // ---->  Generics in TypeScript <----
+
+let score: number[] = [];
+const score2: Array<number> = [];
+const names: Array<string> = [];
