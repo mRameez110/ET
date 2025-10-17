@@ -176,3 +176,4 @@ function getSearchProduct<T>(val: T[]): T {
   return val[index];
 }
 let res = getSearchProduct([1, 2, 3, 4]);
+console.log(res);
