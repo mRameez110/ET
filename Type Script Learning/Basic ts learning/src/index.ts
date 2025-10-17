@@ -173,4 +173,5 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 function getSearchProduct<T>(val: T[]): T {
   let index = 2;
+  return val[index];
 }
