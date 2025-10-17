@@ -175,3 +175,4 @@ function getSearchProduct<T>(val: T[]): T {
   let index = 2;
   return val[index];
 }
+let res = getSearchProduct([1, 2, 3, 4]);
