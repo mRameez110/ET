@@ -154,22 +154,23 @@ let dataArr2: (number | string)[] = [1, 2, "3"]; // instead do like this
 
 // ---->  Generics in TypeScript <----
 
-let score: number[] = [];
-const score2: Array<number> = [];
-const names: Array<string> = [];
+// let score: number[] = [];
+// const score2: Array<number> = [];
+// const names: Array<string> = [];
 
-function identityOne(val: boolean | number): boolean | number {
-  return val;
+// function identityOne(val: boolean | number): boolean | number {
+//   return val;
+// }
+// console.log(identityOne(1));
+// function identityTwo(val: any): any {
+//   return val;
+// }
+// function identityThree<Type>(val: Type): Type {
+//   return val;
+// }
+// console.log(identityTwo(2));
+// console.log(identityThree(3));
+
+function getSearchProduct<T>(val: T[]): T {
+  let index = 2;
 }
-console.log(identityOne(1));
-
-function identityTwo(val: any): any {
-  return val;
-}
-
-function identityThree<Type>(val: Type): Type {
-  return val;
-}
-
-console.log(identityTwo(2));
-console.log(identityThree(3));
