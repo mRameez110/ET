@@ -38,6 +38,8 @@
 // };
 // removeDuplFunc2([1, 2, 2, 3, 3, 3]);
 
+// Method#3: To remove Duplicate from Array using unique object(Optimal)
+
 // 🧩 6. Left rotate the array by 1 place
 // Input: [1, 2, 3, 4] → Output: [2, 3, 4, 1]
 
