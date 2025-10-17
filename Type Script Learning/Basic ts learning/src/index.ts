@@ -166,3 +166,7 @@ console.log(identityOne(1));
 function identityTwo(val: any): any {
   return val;
 }
+
+function identityThree<Type>(val: Type): Type {
+  return val;
+}
