@@ -172,3 +172,4 @@ function identityThree<Type>(val: Type): Type {
 }
 
 console.log(identityTwo(2));
+console.log(identityThree(3));
