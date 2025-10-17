@@ -170,3 +170,5 @@ function identityTwo(val: any): any {
 function identityThree<Type>(val: Type): Type {
   return val;
 }
+
+console.log(identityTwo(2));
