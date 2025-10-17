@@ -40,6 +40,11 @@
 
 // Method#3: To remove Duplicate from Array using unique object(Optimal)
 
+const removeDuplFunc3 = (arr) => {
+  let seen = {};
+  let result = [];
+};
+
 // 🧩 6. Left rotate the array by 1 place
 // Input: [1, 2, 3, 4] → Output: [2, 3, 4, 1]
 
