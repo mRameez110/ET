@@ -162,3 +162,7 @@ function identityOne(val: boolean | number): boolean | number {
   return val;
 }
 console.log(identityOne(1));
+
+function identityTwo(val: any): any {
+  return val;
+}
