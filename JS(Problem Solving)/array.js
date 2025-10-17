@@ -43,6 +43,12 @@
 const removeDuplFunc3 = (arr) => {
   let seen = {};
   let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (!seen[arr[i]]) {
+      seen[arr[i]] = true;
+      result.push(arr[i]);
+    }
+  }
 };
 
 // 🧩 6. Left rotate the array by 1 place
