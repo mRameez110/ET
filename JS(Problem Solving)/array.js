@@ -49,6 +49,7 @@ const removeDuplFunc3 = (arr) => {
       result.push(arr[i]);
     }
   }
+  return result;
 };
 
 // 🧩 6. Left rotate the array by 1 place
