@@ -51,6 +51,7 @@ const removeDuplFunc3 = (arr) => {
   }
   return result;
 };
+removeDuplFunc3([1, 2, 2, 3, 3, 3]);
 
 // 🧩 6. Left rotate the array by 1 place
 // Input: [1, 2, 3, 4] → Output: [2, 3, 4, 1]
