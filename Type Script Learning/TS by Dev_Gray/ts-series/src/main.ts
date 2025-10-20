@@ -1,7 +1,11 @@
 //   ----> Basic of TS
 
-let a = 5;
-let b = "2";
-let c;
-c = a / b;
-console.log(c);
+// let a = 5;
+// let b = "2";
+// let c;
+// c = a / b;
+// console.log(c);
+
+const sum = (a: number, b: string) => {
+  return a + b;
+};
