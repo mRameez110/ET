@@ -1,6 +1,7 @@
 //   ----> Basic of TS
 
-// let a = 5;
-// let b = "2";
-// let c;
-// c = a / b;
+let a = 5;
+let b = "2";
+let c;
+c = a / b;
+console.log(c);
