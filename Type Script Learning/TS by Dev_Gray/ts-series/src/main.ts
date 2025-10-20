@@ -12,3 +12,5 @@
 // console.log(sum(5, "2"));
 
 let strArr = ["a", "b", "c"];
+let str_numArr = ["a", 2];
+let mixArr = ["a", 3, true];
