@@ -9,3 +9,4 @@
 const sum = (a: number, b: string) => {
   return a + b;
 };
+console.log(sum(5, "2"));
