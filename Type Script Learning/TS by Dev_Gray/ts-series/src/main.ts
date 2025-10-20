@@ -16,3 +16,4 @@ let str_numArr = ["a", 2];
 let mixArr = ["a", 3, true];
 
 strArr[0] = 5;
+strArr.push(5);
