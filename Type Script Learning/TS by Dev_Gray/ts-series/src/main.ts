@@ -6,7 +6,9 @@
 // c = a / b;
 // console.log(c);
 
-const sum = (a: number, b: string) => {
-  return a + b;
-};
-console.log(sum(5, "2"));
+// const sum = (a: number, b: string) => {
+//   return a + b;
+// };
+// console.log(sum(5, "2"));
+
+let strArr = ["a", "b", "c"];
