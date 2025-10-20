@@ -1,1 +1,6 @@
 //   ----> Basic of TS
+
+// let a = 5;
+// let b = "2";
+// let c;
+// c = a / b;
