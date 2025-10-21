@@ -26,6 +26,8 @@
 
 // Bind type to empty array
 
-let typeBindArr: number[] = [];
-typeBindArr.push(5);
+// let typeBindArr: number[] = [];
+// typeBindArr.push(5);
 // typeBindArr.push("a"); //   ----> Error: Argument of type 'string' is not assignable
+
+let myTuple: [string, number, boolean] = ["rameez", 24, true];
