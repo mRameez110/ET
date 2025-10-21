@@ -22,3 +22,4 @@
 
 let anyTypeArr = [];
 anyTypeArr.push(5);
+anyTypeArr.push("a");
