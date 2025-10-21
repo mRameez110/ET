@@ -27,3 +27,4 @@
 // Bind type to empty array
 
 let typeBindArr: number[] = [];
+typeBindArr.push(5);
