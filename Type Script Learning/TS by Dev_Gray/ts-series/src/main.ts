@@ -28,3 +28,4 @@
 
 let typeBindArr: number[] = [];
 typeBindArr.push(5);
+// typeBindArr.push("a"); //   ----> Error: Argument of type 'string' is not assignable
