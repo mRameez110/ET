@@ -17,3 +17,4 @@ let mixArr = ["a", 3, true];
 
 strArr[0] = 5;
 strArr.push(5);
+str_numArr[0] = 5; //   ----> No Error bcz type may be string or number
