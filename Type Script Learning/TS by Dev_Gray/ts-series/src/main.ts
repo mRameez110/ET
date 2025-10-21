@@ -21,3 +21,4 @@
 // str_numArr[1] = true; //   ----> Error: Type 'boolean' is not assignable to type 'number'.
 
 let anyTypeArr = [];
+anyTypeArr.push(5);
