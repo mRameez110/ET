@@ -25,3 +25,5 @@
 // anyTypeArr.push("a");
 
 // Bind type to empty array
+
+let typeBindArr: number[] = [];
