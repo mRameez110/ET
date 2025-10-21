@@ -20,6 +20,8 @@
 // str_numArr[0] = 5; //   ----> No Error bcz type may be string or number
 // str_numArr[1] = true; //   ----> Error: Type 'boolean' is not assignable to type 'number'.
 
-let anyTypeArr = [];
-anyTypeArr.push(5);
-anyTypeArr.push("a");
+// let anyTypeArr = [];
+// anyTypeArr.push(5);
+// anyTypeArr.push("a");
+
+// Bind type to empty array
