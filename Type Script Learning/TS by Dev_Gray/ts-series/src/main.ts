@@ -62,3 +62,9 @@ type Person = {
   age: number;
   status: (string | number)[];
 };
+
+let personObj: Person = {
+  name: "Rameez",
+  age: 24,
+  status: ["student", "BSCS", 2024],
+};
