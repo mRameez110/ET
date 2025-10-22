@@ -55,3 +55,4 @@ let exmObj = {
 };
 
 exmObj.age = 23; //   ----> No Error bcz age is number
+exmObj.age = "24"; //   ----> Error: Type 'string' is not assignable to type 'number'.
