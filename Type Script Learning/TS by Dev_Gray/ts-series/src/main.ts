@@ -30,8 +30,9 @@
 // typeBindArr.push(5);
 // typeBindArr.push("a"); //   ----> Error: Argument of type 'string' is not assignable
 
-// let myTuple: [string, number, boolean] = ["rameez", 24, true];
-// myTuple = ["rameez", 24, true, "a"];
+let myTuple: [string, number, boolean] = ["rameez", 24, true];
+myTuple = ["rameez", 24, true, "a"];
 
 // -----    Tuple vs Union type Array   ----
 
+// let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
