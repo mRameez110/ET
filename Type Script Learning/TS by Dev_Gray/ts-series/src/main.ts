@@ -47,3 +47,9 @@
 // let myObj: object;
 // myObj = []; //   ----> No Error bcz in js array is also object
 // myObj = {}; //   ----> No Error bcz in js object is also object
+
+let exmObj = {
+  name: "Rameez",
+  age: 24,
+  isStudent: true,
+};
