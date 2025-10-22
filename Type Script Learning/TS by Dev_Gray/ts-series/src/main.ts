@@ -43,3 +43,5 @@
 // coclusion: tuple is more strict and specific than union type array
 
 // Objects in TS(Lesson 3.2)
+
+let myObj: object;
