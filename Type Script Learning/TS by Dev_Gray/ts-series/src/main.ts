@@ -30,14 +30,16 @@
 // typeBindArr.push(5);
 // typeBindArr.push("a"); //   ----> Error: Argument of type 'string' is not assignable
 
-let myTuple: [string, number, boolean] = ["rameez", 24, true];
-myTuple = ["rameez", 24, true, "a"];
+// let myTuple: [string, number, boolean] = ["rameez", 24, true];
+// myTuple = ["rameez", 24, true, "a"];
 
 // -----    Tuple vs Union type Array   ----
 
-let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
-unionTypeArrSimilarToMyTuple = myTuple; // my tuple assigned to union type array
-// but union type array will not assign to my tuple
-myTuple = unionTypeArrSimilarToMyTuple; //   ----> Error: Type '(string | number | boolean)[]' is not assignable to type '[string, number, boolean]'. Target requires 3 element(s) but source may have fewer.ts(2322)
+// let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
+// unionTypeArrSimilarToMyTuple = myTuple; // my tuple assigned to union type array
+// // but union type array will not assign to my tuple
+// myTuple = unionTypeArrSimilarToMyTuple; //   ----> Error: Type '(string | number | boolean)[]' is not assignable to type '[string, number, boolean]'. Target requires 3 element(s) but source may have fewer.ts(2322)
 
 // coclusion: tuple is more strict and specific than union type array
+
+// Objects in TS(Lesson 3.2)
