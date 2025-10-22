@@ -53,3 +53,5 @@ let exmObj = {
   age: 24,
   isStudent: true,
 };
+
+exmObj.age = 23; //   ----> No Error bcz age is number
