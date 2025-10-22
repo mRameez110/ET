@@ -45,3 +45,5 @@
 // Objects in TS(Lesson 3.2)
 
 let myObj: object;
+myObj = [];
+myObj = {};
