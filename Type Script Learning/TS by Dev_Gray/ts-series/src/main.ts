@@ -48,11 +48,17 @@
 // myObj = []; //   ----> No Error bcz in js array is also object
 // myObj = {}; //   ----> No Error bcz in js object is also object
 
-let exmObj = {
-  name: "Rameez",
-  age: 24,
-  isStudent: true,
-};
+// let exmObj = {
+//   name: "Rameez",
+//   age: 24,
+//   isStudent: true,
+// };
 
-exmObj.age = 23; //   ----> No Error bcz age is number
-exmObj.age = "24"; //   ----> Error: Type 'string' is not assignable to type 'number'.
+// exmObj.age = 23; //   ----> No Error bcz age is number
+// exmObj.age = "24"; //   ----> Error: Type 'string' is not assignable to type 'number'.
+
+type Person = {
+  name: string;
+  age: number;
+  status: (string | number)[];
+};
