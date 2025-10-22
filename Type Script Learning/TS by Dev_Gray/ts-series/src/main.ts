@@ -37,3 +37,5 @@ myTuple = ["rameez", 24, true, "a"];
 
 let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
 unionTypeArrSimilarToMyTuple = myTuple; // my tuple assigned to union type array
+// but union type array will not assign to my tuple
+myTuple = unionTypeArrSimilarToMyTuple; //   ----> Error: Type '(string | number | boolean)[]' is not assignable to type '[string, number, boolean]'. Target requires 3 element(s) but source may have fewer.ts(2322)
