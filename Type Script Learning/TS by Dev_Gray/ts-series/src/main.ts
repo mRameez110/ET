@@ -35,4 +35,5 @@ myTuple = ["rameez", 24, true, "a"];
 
 // -----    Tuple vs Union type Array   ----
 
-// let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
+let unionTypeArrSimilarToMyTuple = ["rameez", 24, true];
+unionTypeArrSimilarToMyTuple = myTuple; // my tuple assigned to union type array
