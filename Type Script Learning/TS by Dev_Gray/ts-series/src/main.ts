@@ -44,6 +44,6 @@
 
 // Objects in TS(Lesson 3.2)
 
-let myObj: object;
-myObj = [];
-myObj = {};
+// let myObj: object;
+// myObj = []; //   ----> No Error bcz in js array is also object
+// myObj = {}; //   ----> No Error bcz in js object is also object
