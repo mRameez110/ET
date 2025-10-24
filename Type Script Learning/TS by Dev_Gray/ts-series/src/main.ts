@@ -82,3 +82,7 @@
 // console.log(message);
 
 5; //   ----> Lesson 5 (Assertions in TS)
+
+let x: string = "123";
+let y = x as unknown as number;
+console.log(y);
