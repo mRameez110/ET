@@ -70,3 +70,7 @@
 // };
 
 4; //   ----> Lesson 4 (Funtions in TS)
+
+const add = (a: number, b: number): number => {
+  return a + b;
+};
