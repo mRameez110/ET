@@ -93,3 +93,5 @@ type Three = "hello";
 
 let a: One = "hello"; // More specific
 let c = a as Three; // More specific
+
+let b = a as Two; // Less specific
