@@ -57,14 +57,16 @@
 // exmObj.age = 23; //   ----> No Error bcz age is number
 // exmObj.age = "24"; //   ----> Error: Type 'string' is not assignable to type 'number'.
 
-type Person = {
-  name: string;
-  age: number;
-  status: (string | number)[];
-};
+// type Person = {
+//   name: string;
+//   age: number;
+//   status: (string | number)[];
+// };
 
-let personObj: Person = {
-  name: "Rameez",
-  age: 24,
-  status: ["student", "BSCS", 2024],
-};
+// let personObj: Person = {
+//   name: "Rameez",
+//   age: 24,
+//   status: ["student", "BSCS", 2024],
+// };
+
+4; //   ----> Lesson 4 (Funtions in TS)
