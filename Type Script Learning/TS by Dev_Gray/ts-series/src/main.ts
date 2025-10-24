@@ -71,13 +71,14 @@
 
 4; //   ----> Lesson 4 (Funtions in TS)
 
-const add = (a: number, b: number): number => {
-  return a + b;
-};
-console.log(add(5, 7)); // 12
+// const add = (a: number, b: number): number => {
+//   return a + b;
+// };
+// console.log(add(5, 7)); // 12
 
-const message = (msg: any): void => {
-  return msg;
-};
+// const message = (msg: any): void => {
+//   return msg;
+// };
+// console.log(message);
 
-console.log(message);
+5; //   ----> Lesson 5 (Assertions in TS)
