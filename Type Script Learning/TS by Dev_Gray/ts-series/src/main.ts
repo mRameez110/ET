@@ -74,5 +74,9 @@
 const add = (a: number, b: number): number => {
   return a + b;
 };
-
 console.log(add(5, 7)); // 12
+
+const message = (msg: any): void => {
+  console.log(msg);
+};
+
