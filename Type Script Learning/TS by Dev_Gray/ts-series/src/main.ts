@@ -83,6 +83,13 @@
 
 5; //   ----> Lesson 5 (Assertions in TS)
 
-let x: string = "123";
-let y = x as unknown as number;
-console.log(y);
+// let x: string = "123";
+// let y = x as unknown as number;
+// console.log(y);
+
+type One = string;
+type Two = string | number;
+type Three = "hello";
+
+let a: One = "hello"; // More specific
+let c = a as Three; // More specific
