@@ -95,3 +95,5 @@ let a: One = "hello"; // More specific
 let c = a as Three; // More specific
 
 let b = a as Two; // Less specific
+// instead of 'as' we also use angle bracket <> for casting
+let d = <Two>a; //  equivalent to  let d = a as Two
