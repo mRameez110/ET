@@ -111,9 +111,16 @@ interface Person2 {
   [key: string]: string | number; // Index signature allows any other property with string keys
 }
 
-const john: Person = {
+// const john: Person = {
+//   name: "John",
+//   age: 25,
+//   city: "New York", // This is not allow
+//   country: "USA",
+// };
+
+const john2: Person2 = {
   name: "John",
   age: 25,
-  city: "New York", // This is not allow
+  city: "New York", // This is allowed due to the index signature
   country: "USA",
 };
