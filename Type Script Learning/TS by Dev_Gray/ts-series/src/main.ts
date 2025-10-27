@@ -101,6 +101,12 @@
 6; //   ----> Lesson  (Index Signature in TS)
 
 interface Person {
+	name: string;
+	age: number;
+}
+
+interface Person2 {
   name: string;
   age: number;
+  [key: string]: string | number; // Index signature allows any other property with string keys
 }
