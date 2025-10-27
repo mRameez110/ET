@@ -101,8 +101,8 @@
 6; //   ----> Lesson  (Index Signature in TS)
 
 interface Person {
-	name: string;
-	age: number;
+  name: string;
+  age: number;
 }
 
 interface Person2 {
@@ -110,3 +110,10 @@ interface Person2 {
   age: number;
   [key: string]: string | number; // Index signature allows any other property with string keys
 }
+
+const john: Person = {
+  name: "John",
+  age: 25,
+  city: "New York", // This is not allow
+  country: "USA",
+};
