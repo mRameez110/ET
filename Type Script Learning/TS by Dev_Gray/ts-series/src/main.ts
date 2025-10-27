@@ -124,3 +124,4 @@ const john2: Person2 = {
   city: "New York", // This is allowed due to the index signature
   country: "USA",
 };
+console.log(john);
