@@ -99,3 +99,8 @@
 // let d = <Two>a; //  equivalent to  let d = a as Two
 
 6; //   ----> Lesson  (Index Signature in TS)
+
+interface Person {
+  name: string;
+  age: number;
+}
