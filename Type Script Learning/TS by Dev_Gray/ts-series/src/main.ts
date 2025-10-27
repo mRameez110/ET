@@ -87,13 +87,15 @@
 // let y = x as unknown as number;
 // console.log(y);
 
-type One = string;
-type Two = string | number;
-type Three = "hello";
+// type One = string;
+// type Two = string | number;
+// type Three = "hello";
 
-let a: One = "hello"; // More specific
-let c = a as Three; // More specific
+// let a: One = "hello"; // More specific
+// let c = a as Three; // More specific
 
-let b = a as Two; // Less specific
-// instead of 'as' we also use angle bracket <> for casting
-let d = <Two>a; //  equivalent to  let d = a as Two
+// let b = a as Two; // Less specific
+// // instead of 'as' we also use angle bracket <> for casting
+// let d = <Two>a; //  equivalent to  let d = a as Two
+
+6; //   ----> Lesson  (Index Signature in TS)
