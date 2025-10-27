@@ -138,5 +138,8 @@ console.log(john2);
 // }
 // console.log(createPair<string, number>("hello", 42));
 
+
 const stringEcho = (arg: string): string => arg;
 const echo = <T>(arg: T): T => arg;
+
+console.log(stringEcho("Rameez"));
