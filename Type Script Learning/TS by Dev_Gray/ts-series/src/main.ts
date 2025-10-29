@@ -148,3 +148,7 @@ console.log(john2);
 // Generic vs Any vs Union Functions
 
 8; //   ----> Lesson 8 (Generic vs Any vs Union Functions)
+
+function identityOne(val: boolean | number): boolean | number {
+  return val;
+}
