@@ -138,9 +138,13 @@ console.log(john2);
 // }
 // console.log(createPair<string, number>("hello", 42));
 
-const stringEcho = (arg: string): string => arg;
-const echo = <T>(arg: T): T => arg;
+// const stringEcho = (arg: string): string => arg;
+// const echo = <T>(arg: T): T => arg;
 
-console.log(stringEcho("Rameez"));
-console.log(echo("Rameez"));
-console.log(echo(true));
+// console.log(stringEcho("Rameez"));
+// console.log(echo("Rameez"));
+// console.log(echo(true));
+
+// Generic vs Any vs Union Functions
+
+8; //   ----> Lesson 8 (Generic vs Any vs Union Functions)
