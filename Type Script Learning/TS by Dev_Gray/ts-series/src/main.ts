@@ -162,3 +162,4 @@ function identityThree<T>(val: T): T {
 }
 
 console.log(identityOne(true));
+console.log(identityTwo(24));
