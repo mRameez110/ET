@@ -160,3 +160,5 @@ function identityTwo(val: any): any {
 function identityThree<T>(val: T): T {
   return val;
 }
+
+console.log(identityOne(true));
