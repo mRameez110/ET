@@ -152,3 +152,7 @@ console.log(john2);
 function identityOne(val: boolean | number): boolean | number {
   return val;
 }
+
+function identityTwo(val: any): any {
+	return val;
+}
