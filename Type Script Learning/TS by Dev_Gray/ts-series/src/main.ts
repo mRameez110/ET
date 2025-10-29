@@ -147,20 +147,27 @@ console.log(john2);
 
 // Generic vs Any vs Union Functions
 
-8; //   ----> Lesson 8 (Generic vs Any vs Union Functions)
+8; //   ----> Lesson 8 (Generic vs Any vs Union Functions
 
-function identityOne(val: boolean | number): boolean | number {
-  return val;
-}
+// function identityOne(val: boolean | number): boolean | number {
+//   return val;
+// }
 
-function identityTwo(val: any): any {
-  return val;
-}
+// function identityTwo(val: any): any {
+//   return val;
+// }
 
-function identityThree<T>(val: T): T {
-  return val;
-}
+// function identityThree<T>(val: T): T {
+//   return val;
+// }
+// console.log(identityOne(true));
+// console.log(identityTwo(24));
+// console.log(identityThree("Rameez"));
 
-console.log(identityOne(true));
-console.log(identityTwo(24));
-console.log(identityThree("Rameez"));
+
+3; //   ----> Lesson 3 (Array & Objects in TS)
+3.2; // Objects in TS(Lesson 3.2)
+4; //   ----> Lesson 4 (Funtions in TS)
+5; //   ----> Lesson 5 (Assertions in TS)
+6; //   ----> Lesson 6 (Index Signature in TS)
+7; //   ----> Lesson 7 (Generics in TS)
