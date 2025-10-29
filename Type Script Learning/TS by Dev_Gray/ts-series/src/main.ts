@@ -154,5 +154,9 @@ function identityOne(val: boolean | number): boolean | number {
 }
 
 function identityTwo(val: any): any {
-	return val;
+  return val;
+}
+
+function identityThree<T>(val: T): T {
+  return val;
 }
