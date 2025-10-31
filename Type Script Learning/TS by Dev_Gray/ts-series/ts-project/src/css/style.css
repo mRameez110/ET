@@ -58,9 +58,15 @@ section {
   top: 0;
   margin-bottom: 1rem;
 }
-
 .newItemEntry__form {
   display: flex;
   gap: 0.25rem;
   font-size: 1.5rem;
+}
+.newItemEntry__input {
+  width: calc(100% - (0.25rem + 48px));
+  flex-grow: 1;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 0.5em;
 }
