@@ -45,3 +45,6 @@ section {
   min-width: 48px;
   min-height: 48px;
 }
+.button:hover {
+  cursor: pointer;
+}
