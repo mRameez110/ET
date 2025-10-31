@@ -91,3 +91,9 @@ section {
   color: whitesmoke;
   padding: 0.25em;
 }
+.listItems {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  list-style-type: none;
+}
