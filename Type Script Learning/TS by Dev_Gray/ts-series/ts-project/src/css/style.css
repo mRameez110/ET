@@ -81,3 +81,8 @@ section {
   flex-flow: column;
   gap: 1rem;
 }
+.listTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
