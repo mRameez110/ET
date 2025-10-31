@@ -33,3 +33,9 @@ main {
   display: flex;
   flex-flow: column nowrap;
 }
+
+section {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
