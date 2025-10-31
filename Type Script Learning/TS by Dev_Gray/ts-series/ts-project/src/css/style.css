@@ -4,3 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+input,
+button {
+  font: inherit;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
