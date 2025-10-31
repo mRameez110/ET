@@ -58,3 +58,9 @@ section {
   top: 0;
   margin-bottom: 1rem;
 }
+
+.newItemEntry__form {
+  display: flex;
+  gap: 0.25rem;
+  font-size: 1.5rem;
+}
