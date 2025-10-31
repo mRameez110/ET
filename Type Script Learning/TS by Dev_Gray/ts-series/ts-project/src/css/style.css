@@ -70,3 +70,7 @@ section {
   border-radius: 10px;
   padding: 0.5em;
 }
+.newItemEntry__button:hover,
+.newItemEntry__button:focus {
+  color: limegreen;
+}
