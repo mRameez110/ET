@@ -19,6 +19,9 @@ export default class FullList implements List {
   if (typeof storedList !== "string") return;
   const parsedList = JSON.parse(storedList);
   parsedList.forEach(...);
+	}
+	save(): void {
+  localStorage.setItem("myList", JSON.stringify(this._list));
 }
 
 }
