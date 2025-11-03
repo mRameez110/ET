@@ -10,4 +10,5 @@ interface List {
 }
 export default class FullList implements List {
   static instance: FullList = new FullList();
+  static instance: FullList = new FullList();
 }
