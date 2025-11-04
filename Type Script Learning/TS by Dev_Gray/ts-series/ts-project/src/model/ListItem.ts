@@ -4,5 +4,10 @@ export interface Item {
   checked: boolean;
 }
 export default class ListItem implements Item {
-  constructor() {}
+	constructor(
+	  private _id: string;
+      private _item: string;
+      private _checked: boolean;
+
+  ) {}
 }
