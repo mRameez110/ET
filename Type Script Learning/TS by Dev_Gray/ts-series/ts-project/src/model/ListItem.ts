@@ -3,3 +3,4 @@ export interface Item {
   item: string;
   checked: boolean;
 }
+export default class ListItem {}
