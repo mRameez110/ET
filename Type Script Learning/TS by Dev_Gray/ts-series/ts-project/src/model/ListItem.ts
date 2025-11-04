@@ -3,4 +3,6 @@ export interface Item {
   item: string;
   checked: boolean;
 }
-export default class ListItem {}
+export default class ListItem implements Item {
+	
+}
