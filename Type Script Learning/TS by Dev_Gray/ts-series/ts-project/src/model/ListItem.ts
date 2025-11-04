@@ -4,5 +4,5 @@ export interface Item {
   checked: boolean;
 }
 export default class ListItem implements Item {
-	
+  constructor() {}
 }
