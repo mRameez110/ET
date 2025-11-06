@@ -18,4 +18,7 @@ export default class ListItem implements Item {
   get item(): string {
     return this._item;
   }
+  set item(item: string) {
+    this._item = item;
+  }
 }
