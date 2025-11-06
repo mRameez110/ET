@@ -9,4 +9,7 @@ export default class ListItem implements Item {
     private _item: string = "",
     private _checked: boolean = false
   ) {}
+  get id(): string {
+    return this._id;
+  }
 }
