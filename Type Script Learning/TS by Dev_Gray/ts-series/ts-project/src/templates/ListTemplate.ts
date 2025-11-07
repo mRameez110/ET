@@ -30,5 +30,10 @@ export default class ListTemplate implements DOMList {
 			check.checked = item.checked;
 			li.append(check);
 
+			check.addEventListener("change", () => {
+				item.checked = !item.checked;
+				fullList.save();
+			});
+
 
 		}
