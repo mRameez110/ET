@@ -35,5 +35,9 @@ export default class ListTemplate implements DOMList {
 				fullList.save();
 			});
 
+			const label = document.createElement("label") as HTMLLabelElement;
+			label.htmlFor = item.id;
+			label.textContent = item.item;
+			li.append(label);
 
 		}
