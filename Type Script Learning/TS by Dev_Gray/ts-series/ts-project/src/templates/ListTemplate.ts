@@ -14,3 +14,7 @@ export default class ListTemplate implements DOMList {
 	private constructor() {
 		this.ul = document.getElementById("listItems") as HTMLUListElement;
 	}
+	
+		clear(): void {
+		this.ul.innerHTML = "";
+	}
