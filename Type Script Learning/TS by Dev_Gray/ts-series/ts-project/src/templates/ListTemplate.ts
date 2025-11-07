@@ -40,4 +40,10 @@ export default class ListTemplate implements DOMList {
 			label.textContent = item.item;
 			li.append(label);
 
+			const button = document.createElement("button") as HTMLButtonElement;
+			button.className = "button";
+			button.textContent = "X";
+			li.append(button);
+
+
 		}
