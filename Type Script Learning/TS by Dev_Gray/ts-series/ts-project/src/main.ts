@@ -27,5 +27,7 @@ const initApp = (): void => {
             : 1;
         
         // create new item
-		const newItem = new ListItem(itemId.toString(), newEntryText);
+        const newItem = new ListItem(itemId.toString(), newEntryText);
+        // Add new item to full list
+		fullList.addItem(newItem);
 }
