@@ -1,5 +1,4 @@
-// src/declarations.d.ts
-declare module "*.css";
+import "./css/style.css";
 import FullList from "./model/FullList";
 import ListItem from "./model/ListItem";
 import ListTemplate from "./templates/ListTemplate";
@@ -44,7 +43,7 @@ const initApp = (): void => {
     template.clear();
   });
 
-  // load initial dat
+  // load initial data
   fullList.load();
   // initial render of template
   template.render(fullList);
