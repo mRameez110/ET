@@ -46,4 +46,6 @@ const initApp = (): void => {
 
   // load initial data
   fullList.load();
+  // initial render of template
+  template.render(fullList);
 };
