@@ -38,4 +38,9 @@ const initApp = (): void => {
   const clearItems = document.getElementById(
     "clearItemsButton"
   ) as HTMLButtonElement;
+
+  clearItems.addEventListener("click", (): void => {
+    fullList.clearList();
+    template.clear();
+  });
 };
