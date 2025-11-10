@@ -43,4 +43,7 @@ const initApp = (): void => {
     fullList.clearList();
     template.clear();
   });
+
+  // load initial data
+  fullList.load();
 };
