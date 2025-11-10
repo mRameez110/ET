@@ -24,5 +24,8 @@ const initApp = (): void => {
         // calculate item ID
 		const itemId: number = fullList.list.length
 			? parseInt(fullList.list[fullList.list.length - 1].id) + 1
-			: 1;
+            : 1;
+        
+        // create new item
+		const newItem = new ListItem(itemId.toString(), newEntryText);
 }
