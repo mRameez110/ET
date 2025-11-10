@@ -29,5 +29,7 @@ const initApp = (): void => {
         // create new item
         const newItem = new ListItem(itemId.toString(), newEntryText);
         // Add new item to full list
-		fullList.addItem(newItem);
+        fullList.addItem(newItem);
+        // Re-render list with new item included
+		template.render(fullList);
 }
