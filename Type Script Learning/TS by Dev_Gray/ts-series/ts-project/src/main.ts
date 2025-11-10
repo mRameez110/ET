@@ -44,8 +44,10 @@ const initApp = (): void => {
     template.clear();
   });
 
-  // load initial data
+  // load initial dat
   fullList.load();
   // initial render of template
   template.render(fullList);
 };
+
+document.addEventListener("DOMContentLoaded", initApp);
