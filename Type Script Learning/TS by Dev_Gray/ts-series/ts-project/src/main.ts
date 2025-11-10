@@ -19,5 +19,10 @@ const initApp = (): void => {
         // Get the new item value
 		const input = document.getElementById("newItem") as HTMLInputElement;
 		const newEntryText: string = input.value.trim();
-		if (!newEntryText.length) return;
+        if (!newEntryText.length) return;
+        
+        // calculate item ID
+		const itemId: number = fullList.list.length
+			? parseInt(fullList.list[fullList.list.length - 1].id) + 1
+			: 1;
 }
