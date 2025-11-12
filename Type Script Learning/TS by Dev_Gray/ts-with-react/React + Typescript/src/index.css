@@ -11,3 +11,7 @@ body {
   place-content: center;
   font-size: 150%;
 }
+
+button {
+  font-size: 2rem;
+}
