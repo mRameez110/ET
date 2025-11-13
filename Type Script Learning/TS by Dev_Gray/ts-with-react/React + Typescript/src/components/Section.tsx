@@ -13,6 +13,6 @@ export const Section = ({
     <section>
       <h2>{title}</h2>
       <p>{children}</p>
-    </section
+    </section>
   );
 };
