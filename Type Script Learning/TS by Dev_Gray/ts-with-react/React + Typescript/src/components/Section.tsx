@@ -10,6 +10,9 @@ export const Section = ({
   title = "My Subheading",
 }: SectionProps) => {
   return (
-    
+    <section>
+      <h2>{title}</h2>
+      <p>{children}</p>
+    </section
   );
 };
