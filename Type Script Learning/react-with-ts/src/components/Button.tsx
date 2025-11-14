@@ -10,3 +10,6 @@ interface Book {
   name: string;
   price: number;
 }
+
+const MyButton: React.FC<ButtonProps> = (props) => {
+	const context = useCounter();
