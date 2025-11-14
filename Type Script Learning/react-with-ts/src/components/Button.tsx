@@ -5,3 +5,8 @@ interface ButtonProps {
   text: string;
   onClick: () => void;
 }
+
+interface Book {
+  name: string;
+  price: number;
+}
