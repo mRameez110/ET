@@ -26,8 +26,11 @@ const MyButton: React.FC<ButtonProps> = (props) => {
         Name of Book is {value.name} and price is {value.price}
       </h2>
       <h2 onClick={(e) => context?.setCount(context?.value + 1)}>
-        Check context value {context?.value}
+        Check context value {context?.value}{" "}
       </h2>
+      <button onClick={() => setValue({ name: "Book 2", price: 300 })}>
+        {text}
+      </button>
     </>
   );
 };
