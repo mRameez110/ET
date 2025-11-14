@@ -13,3 +13,8 @@ interface Book {
 
 const MyButton: React.FC<ButtonProps> = (props) => {
 	const context = useCounter();
+	const [value, setValue] = useState<Book>({
+	name: "Science Book",
+	price: 200,
+});
+
