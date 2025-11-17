@@ -15,6 +15,9 @@ const MyForm: React.FC<ButtonProps> = (props) => {
   return (
     <>
       <h1>This is form Component</h1>
+      <div>
+        <form onSubmit={handleSubmit}></form>
+      </div>
     </>
   );
 };
