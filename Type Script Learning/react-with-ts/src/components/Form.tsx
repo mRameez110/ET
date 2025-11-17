@@ -12,5 +12,9 @@ const MyForm: React.FC<ButtonProps> = (props) => {
     e.preventDefault();
     console.log("Form Submitted event", e.target);
   };
-  return <></>;
+  return (
+    <>
+      <h1>This is form Component</h1>
+    </>
+  );
 };
