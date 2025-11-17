@@ -16,7 +16,14 @@ const MyForm: React.FC<ButtonProps> = (props) => {
     <>
       <h1>This is form Component</h1>
       <div>
-        <form onSubmit={handleSubmit}></form>
+        <form onSubmit={handleSubmit}>
+          <input
+            onChange={handleNameChange}
+            name="userName"
+            type="text"
+            placeholder="Enter Yr Name"
+          />
+        </form>
       </div>
     </>
   );
