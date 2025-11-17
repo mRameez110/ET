@@ -23,6 +23,7 @@ const MyForm: React.FC<ButtonProps> = (props) => {
             type="text"
             placeholder="Enter Yr Name"
           />
+          <button type="submit">Submit</button>
         </form>
       </div>
     </>
