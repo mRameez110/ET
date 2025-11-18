@@ -14,5 +14,16 @@ export const useCounter = () => {
 
 export const CounterProvider: React.FC<CounterProviderProps> = (props) => {
   const [count, setCount] = useState<number>(1);
-  return <></>;
+  return (
+    <>
+      <CounterContext.Provider
+        value={{
+          value: count,
+          setCount: setCount,
+        }}
+      >
+        {props.children}
+      </CounterContext.Provider>
+    </>
+  );
 };
