@@ -14,4 +14,5 @@ export const useCounter = () => {
 
 export const CounterProvider: React.FC<CounterProviderProps> = (props) => {
   const [count, setCount] = useState<number>(1);
+  return <></>;
 };
