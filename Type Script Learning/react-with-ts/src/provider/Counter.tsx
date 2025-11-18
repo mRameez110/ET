@@ -11,3 +11,5 @@ const CounterContext = createContext<CounterContextValue | null>(null);
 export const useCounter = () => {
   return useContext(CounterContext);
 };
+
+export const CounterProvider: React.FC<CounterProviderProps> = (props) => {};
