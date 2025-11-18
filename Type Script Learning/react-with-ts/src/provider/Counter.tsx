@@ -7,3 +7,4 @@ interface CounterContextValue {
   value: number;
   setCount: (num: number) => void;
 }
+const CounterContext = createContext<CounterContextValue | null>(null);
