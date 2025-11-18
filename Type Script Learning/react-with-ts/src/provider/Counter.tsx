@@ -12,4 +12,6 @@ export const useCounter = () => {
   return useContext(CounterContext);
 };
 
-export const CounterProvider: React.FC<CounterProviderProps> = (props) => {};
+export const CounterProvider: React.FC<CounterProviderProps> = (props) => {
+  const [count, setCount] = useState<number>(1);
+};
