@@ -8,3 +8,6 @@ interface CounterContextValue {
   setCount: (num: number) => void;
 }
 const CounterContext = createContext<CounterContextValue | null>(null);
+export const useCounter = () => {
+  return useContext(CounterContext);
+};
