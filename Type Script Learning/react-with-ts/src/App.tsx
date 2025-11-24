@@ -8,6 +8,9 @@ import { CounterProvider } from "./provider/Counter";
 function App() {
   return (
 	<div className="App">
-		<h1>This is button</h1>
+      <h1>This is button</h1>
+      <MyForm text="click Me" onClick={() => alert("Button clicked")} />
+      
+
 
 }
