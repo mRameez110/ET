@@ -11,6 +11,9 @@ function App() {
       <h1>This is button</h1>
       <MyForm text="click Me" onClick={() => alert("Button clicked")} />
       
+      <CounterProvider>
+	<MyButton text="click Me" onClick={() => alert("Button clicked")} />
+</CounterProvider>
 
 
 }
