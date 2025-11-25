@@ -12,6 +12,12 @@ const HEAD = (
   />
 )
 
+const BODY = (...)
+const RIGHT_ARM = (...)
+const LEFT_ARM = (...)
+const RIGHT_LEG = (...)
+const LEFT_LEG = (...)
+
 
 export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingProps) {
   return <div style={{ position: "relative" }}></div>
