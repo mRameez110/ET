@@ -17,6 +17,9 @@ const RIGHT_ARM = (...)
 const LEFT_ARM = (...)
 const RIGHT_LEG = (...)
 const LEFT_LEG = (...)
+  
+  const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG]
+
 
 
 export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingProps) {
