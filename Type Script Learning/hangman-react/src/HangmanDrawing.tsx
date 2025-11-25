@@ -1,3 +1,8 @@
 export function HangmanDrawing() {
-  return <div></div>
+  return <div>
+    type HangmanDrawingProps = {
+  numberOfGuesses: number
+}
+
+  </div>
 }
