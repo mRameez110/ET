@@ -1,3 +1,3 @@
 export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingProps) {
-  return <div></div>
+  return <div style={{ position: "relative" }}></div>
 }
