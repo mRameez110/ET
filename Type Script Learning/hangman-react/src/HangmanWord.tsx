@@ -19,7 +19,11 @@ export function HangmanWord({
                 textTransform: "uppercase",
         fontFamily: "monospace",
       }}
-    >
+      >
+              {wordToGuess.split("").map((letter, index) => (
+                <span style={{ borderBottom: ".1em solid black" }} key={index}>
+                <span
+            style={{
 
 
 
