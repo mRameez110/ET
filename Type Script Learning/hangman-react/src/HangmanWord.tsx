@@ -15,6 +15,11 @@ export function HangmanWord({
           display: "flex",
                 gap: ".25em",
         fontSize: "6rem",
-        fontWeight: "bold",
+          fontWeight: "bold",
+                textTransform: "uppercase",
+        fontFamily: "monospace",
+      }}
+    >
+
 
 
