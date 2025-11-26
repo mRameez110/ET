@@ -9,3 +9,8 @@ export function HangmanWord({
   wordToGuess,
   reveal = false,
 }: HangmanWordProps) {
+    return (
+    <div
+      style={{
+        display: "flex",
+
