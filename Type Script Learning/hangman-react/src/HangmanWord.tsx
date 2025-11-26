@@ -3,3 +3,9 @@ type HangmanWordProps = {
   wordToGuess: string
   reveal?: boolean
 }
+
+export function HangmanWord({
+  guessedLetters,
+  wordToGuess,
+  reveal = false,
+}: HangmanWordProps) {
