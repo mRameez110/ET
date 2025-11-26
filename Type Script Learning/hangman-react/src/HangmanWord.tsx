@@ -26,7 +26,14 @@ export function HangmanWord({
             style={{visibility:
                 guessedLetters.includes(letter) || reveal
                   ? "visible"
-                  : "hidden",
+                        : "hidden",
+                            color:
+                !guessedLetters.includes(letter) && reveal ? "red" : "black",
+            }}
+          >
+            {letter}
+          </span>
+
 
 
 
