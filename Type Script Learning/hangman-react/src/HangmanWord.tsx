@@ -12,5 +12,9 @@ export function HangmanWord({
     return (
     <div
       style={{
-        display: "flex",
+          display: "flex",
+                gap: ".25em",
+        fontSize: "6rem",
+        fontWeight: "bold",
+
 
