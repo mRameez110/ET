@@ -5,3 +5,9 @@ const KEYS = [
   "n","o","p","q","r","s","t","u","v","w","x","y","z",
 ]
 
+type KeyboardProps = {
+  disabled?: boolean
+  activeLetters: string[]
+  inactiveLetters: string[]
+  addGuessedLetter: (letter: string) => void
+}
