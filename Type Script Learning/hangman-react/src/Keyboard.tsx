@@ -11,3 +11,10 @@ type KeyboardProps = {
   inactiveLetters: string[]
   addGuessedLetter: (letter: string) => void
 }
+
+export function Keyboard({
+  activeLetters,
+  inactiveLetters,
+  addGuessedLetter,
+  disabled = false,
+}: KeyboardProps) {
