@@ -22,5 +22,7 @@ export function Keyboard({
     <div
       style={{
           display: "grid",
-        Add container div and set display to grid
-
+        >
+      {KEYS.map(key => {
+        const isActive = activeLetters.includes(key)
+        const isInactive = inactiveLetters.includes(key)
