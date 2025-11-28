@@ -18,3 +18,8 @@ export function Keyboard({
   addGuessedLetter,
   disabled = false,
 }: KeyboardProps) {
+    return (
+    <div
+      style={{
+        display: "grid",
+
