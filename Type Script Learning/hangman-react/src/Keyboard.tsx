@@ -21,5 +21,6 @@ export function Keyboard({
     return (
     <div
       style={{
-        display: "grid",
+          display: "grid",
+        Add container div and set display to grid
 
