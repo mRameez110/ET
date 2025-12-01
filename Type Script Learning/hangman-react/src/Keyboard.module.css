@@ -2,6 +2,9 @@
   width: 100%;
     border: 3px solid black;
   background: none;
+    aspect-ratio: 1 / 1;
+  font-size: 2.5rem;
+
 
 }
 
