@@ -20,3 +20,7 @@
   opacity: .3;
 }
 
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+
+
