@@ -7,3 +7,6 @@ import words from "./wordList.json"
 function getWord() {
   return words[Math.floor(Math.random() * words.length)]
 }
+
+function App() {
+  const [wordToGuess, setWordToGuess] = useState(getWord)
