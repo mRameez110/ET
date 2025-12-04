@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App .card {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.App h1 {
+  color: #2c3e50;
+}
+
+.App p {
+  color: #555;
+}
