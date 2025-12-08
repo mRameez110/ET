@@ -13,6 +13,8 @@ export default function App() {
     count  =count +1;
     console.log(count)
   }
+  
+    // Solution: use the useState hook
   }
 
 return (
