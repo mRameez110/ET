@@ -13,8 +13,15 @@ export default function App() {
     count  =count +1;
     console.log(count)
   }
-  
+
     // Solution: use the useState hook
+
+     let [increment, setIncrement] = useState(0);
+  function increastWithUseStateHook(){
+    // increment = increment + 1;
+    setIncrement(++increment);
+  }
+
   }
 
 return (
@@ -23,10 +30,10 @@ return (
     //   <button onClick={() => OnClick("Rameez")}>Click Me</button>
     // </div>
 
-    <div>
-      <h1>This is Counter Demo</h1>
-      <h4>count = {count}</h4>
-      <button onClick={increase}>increase</button>
-    </div>  
+    // <div>
+    //   <h1>This is Counter Demo</h1>
+    //   <h4>count = {count}</h4>
+    //   <button onClick={increase}>increase</button>
+    // </div>  
   );
 }
