@@ -35,5 +35,11 @@ return (
     //   <h4>count = {count}</h4>
     //   <button onClick={increase}>increase</button>
     // </div>  
+
+     <div>
+      <h1>This is Counter Demo</h1>
+      <h4>count = {increment}</h4>
+      <button onClick={increastWithUseStateHook}>increase</button>
+    </div>   
   );
 }
