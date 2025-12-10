@@ -33,6 +33,10 @@ export default function App() {
             {" "}
             --{" "}
           </button>
+                    <button onClick={() => setMarks(marks.filter((m, index) => index !== i))}>
+            Delete
+          </button>
+
 
     </div>
 )
