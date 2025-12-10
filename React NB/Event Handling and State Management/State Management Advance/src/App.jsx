@@ -1,26 +1,36 @@
+// Event Handling in JSX
+
 import React from "react";
 import { useState } from "react";
 
 export default function App() {
   let [count, setCount] = useState(0);
-    let [marks, setMarks] = useState([1, 2, 3, 4]);
 
-      function increaseCount(index) {
+  let [marks, setMarks] = useState([1, 2, 3, 4]);
+
+  function increaseCount(index) {
+
+
     marks[index] = marks[index] +1;
+
     setMarks(marks);
     console.log("marks array ", marks);
+    // console.log("copy array ", copyMarks);
+
+
     console.log(count);
   }
 
-    function decreaseCount(index) {
+  function decreaseCount(index) {
     setCount(--count);
     console.log(count);
   }
 
-    return (
+  return (
     <div className="container-fluid my-5">
       <h1>Advanc State Management</h1>
-            {marks.map((m,i) => (
+
+      {marks.map((m,i) => (
         <div>
           <button className="" onClick={()=>increaseCount(i)}>
             {" "}
@@ -33,13 +43,14 @@ export default function App() {
             {" "}
             --{" "}
           </button>
-                    <button onClick={() => setMarks(marks.filter((m, index) => index !== i))}>
+
+          {/* to delete element */}
+          <button onClick={() => setMarks(marks.filter((m, index) => index !== i))}>
             Delete
           </button>
-
-
+          
+        </div >
+      ))}
     </div>
-)
-
-
+  );
 }
