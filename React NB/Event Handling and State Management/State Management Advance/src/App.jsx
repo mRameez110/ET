@@ -20,6 +20,20 @@ export default function App() {
     return (
     <div className="container-fluid my-5">
       <h1>Advanc State Management</h1>
+            {marks.map((m,i) => (
+        <div>
+          <button className="" onClick={()=>increaseCount(i)}>
+            {" "}
+            ++{" "}
+          </button>
+
+          <span className="mx-2">{m}</span>
+
+          <button className="px-2" onClick={()=>decreaseCount(i)}>
+            {" "}
+            --{" "}
+          </button>
+
     </div>
 )
 
