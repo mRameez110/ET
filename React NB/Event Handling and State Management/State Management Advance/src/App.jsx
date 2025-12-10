@@ -12,5 +12,11 @@ export default function App() {
     console.log(count);
   }
 
+    function decreaseCount(index) {
+    setCount(--count);
+    console.log(count);
+  }
+
+
 
 }
