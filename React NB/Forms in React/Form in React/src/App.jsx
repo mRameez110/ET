@@ -33,6 +33,14 @@ function onSubmitHandler(event) {
             </Form.Text>
           </Form.Group>
 
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" name='password' value={input.password} onChange={onChangeHandler}  />
+          </Form.Group>
+          
+         
+
+
           </Form>
 </div>
   )
