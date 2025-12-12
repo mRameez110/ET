@@ -14,3 +14,8 @@ function onChangeHandler(event){
   setInput(input=>({...input, [name]:value}));
   console.log(name, value);
 }
+
+function onSubmitHandler(event) {
+  event.preventDefault();
+  alert("Form Submited");
+}
