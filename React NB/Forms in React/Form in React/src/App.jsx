@@ -38,7 +38,9 @@ function onSubmitHandler(event) {
             <Form.Control type="password" placeholder="Password" name='password' value={input.password} onChange={onChangeHandler}  />
           </Form.Group>
           
-         
+          <Form.Group className="mb-3" controlId="formBasicCheckbox">
+            <Form.Check type="checkbox" label="Check me out" />
+          </Form.Group>
 
 
           </Form>
