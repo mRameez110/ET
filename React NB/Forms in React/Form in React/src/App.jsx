@@ -8,7 +8,7 @@ function BasicExample() {
   password:""
 });
 
-}
+
 function onChangeHandler(event){
   const{name, value} = event.target;
   setInput(input=>({...input, [name]:value}));
@@ -18,4 +18,10 @@ function onChangeHandler(event){
 function onSubmitHandler(event) {
   event.preventDefault();
   alert("Form Submited");
+}
+
+  return (
+    <div className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: "#dedede" }}>
+</div>
+  )
 }
