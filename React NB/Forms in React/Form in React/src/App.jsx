@@ -27,7 +27,7 @@ function onSubmitHandler(event) {
         <Form onSubmit={onSubmitHandler}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="text" placeholder="Enter email" name='email' value={input.email} onChange={''}/>
+            <Form.Control type="text" placeholder="Enter email" name='email' value={input.email} onChange={onChangeHandler}/>
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
             </Form.Text>
