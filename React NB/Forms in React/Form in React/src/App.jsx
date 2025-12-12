@@ -55,3 +55,6 @@ function onSubmitHandler(event) {
     </div>
   );
 }
+
+export default BasicExample;
+
