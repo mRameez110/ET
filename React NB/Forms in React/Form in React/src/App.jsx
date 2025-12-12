@@ -22,6 +22,8 @@ function onSubmitHandler(event) {
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: "#dedede" }}>
+          <div className="w-100 p-4 border rounded shadow bg-white" style={{ maxWidth: "400px" }}>
+</div>
 </div>
   )
 }
