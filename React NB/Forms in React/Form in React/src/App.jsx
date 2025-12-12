@@ -9,3 +9,8 @@ function BasicExample() {
 });
 
 }
+function onChangeHandler(event){
+  const{name, value} = event.target;
+  setInput(input=>({...input, [name]:value}));
+  console.log(name, value);
+}
