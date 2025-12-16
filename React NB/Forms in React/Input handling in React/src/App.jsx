@@ -32,7 +32,7 @@ function App() {
       </div>
       <div>
         <h5>User Age: </h5>
-        <input type="number" name="age" value={user.age}  />
+        <input type="number" name="age" value={user.age} onChange={onChangeUser} />
         {user.name} Age is {user.age} years
       </div>
 
