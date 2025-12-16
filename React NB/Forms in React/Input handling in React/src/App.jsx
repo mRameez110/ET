@@ -14,6 +14,14 @@ function App() {
     console.log(event.target.name, event.target.value);
   }
 
+      // if(name === "name"){
+    //   setUser({...user, name:value})
+    // }
+    // else if(name === "age"){
+    //   setUser({...user, age:value})
+    // }
+
+
 
   return <div></div>;
 }
