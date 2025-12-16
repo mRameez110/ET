@@ -23,7 +23,15 @@ function App() {
 
 
 
-  return <div></div>;
+  return <div>
+          <div>
+        <h5>User Name: </h5>
+        <input type="text" name="name" value={user.name} onChange={onChangeUser} />
+        <button onClick={''}> sub</button>
+        Welcome {user.name}
+      </div>
+
+  </div>;
 }
 
 export default App;
