@@ -30,6 +30,12 @@ function App() {
         <button onClick={''}> sub</button>
         Welcome {user.name}
       </div>
+      <div>
+        <h5>User Age: </h5>
+        <input type="number" name="age" value={user.age}  />
+        {user.name} Age is {user.age} years
+      </div>
+
 
   </div>;
 }
