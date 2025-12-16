@@ -6,6 +6,15 @@ function App() {
     age: "0"
   });
 
+    function onChangeUser(event) {
+    let { name, value } = event.target;
+
+    setUser({ ...user, [name]: value });
+
+    console.log(event.target.name, event.target.value);
+  }
+
+
   return <div></div>;
 }
 
