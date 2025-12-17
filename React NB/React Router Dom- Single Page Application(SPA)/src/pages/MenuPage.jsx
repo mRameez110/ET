@@ -14,7 +14,9 @@ function MenuPage() {
 					<Link to="/product/2">P2</Link>
 				</li>
 
-				
+				<a href="https://www.nexusberry.com/">
+					<li>Nexus Berry Website </li>
+				</a>
 			</ul>
 		</div>
 	);
