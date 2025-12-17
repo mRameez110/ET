@@ -5,7 +5,12 @@ function MenuPage() {
 	return (
 		<div>
 			MenuPage
-
+			<ul>
+				<li>
+					<Link to="/product/1">P1</Link>
+				</li>
+				
+			</ul>
 		</div>
 	);
 }
