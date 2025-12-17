@@ -9,6 +9,11 @@ function MenuPage() {
 				<li>
 					<Link to="/product/1">P1</Link>
 				</li>
+
+				<li>
+					<Link to="/product/2">P2</Link>
+				</li>
+
 				
 			</ul>
 		</div>
