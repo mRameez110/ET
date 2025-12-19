@@ -7,6 +7,9 @@ import ProductDetailsPage from "./pages/ProductDetailsPage";
 export default function App() {
   return (
 		<>
+    			<BrowserRouter>
+				<Routes>
+
 			App.jsx
 		</>
 	);
