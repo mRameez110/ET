@@ -7,14 +7,15 @@ import ProductDetailsPage from "./pages/ProductDetailsPage";
 export default function App() {
   return (
 		<>
+    App.jsx
     			<BrowserRouter>
 				<Routes>
         <Route path="/home" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
-
-
-			App.jsx
+			
+      </Routes>
+			</BrowserRouter>
 		</>
 	);
 }
