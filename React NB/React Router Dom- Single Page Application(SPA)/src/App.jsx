@@ -11,6 +11,7 @@ export default function App() {
 				<Routes>
         <Route path="/home" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
+        <Route path="/product/:id" element={<ProductDetailsPage />} />
 
 
 			App.jsx
