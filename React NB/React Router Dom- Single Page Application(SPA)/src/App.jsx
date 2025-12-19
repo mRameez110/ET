@@ -9,6 +9,8 @@ export default function App() {
 		<>
     			<BrowserRouter>
 				<Routes>
+        <Route path="/home" element={<HomePage />} />
+
 
 			App.jsx
 		</>
