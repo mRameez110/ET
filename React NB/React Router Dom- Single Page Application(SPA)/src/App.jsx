@@ -10,6 +10,7 @@ export default function App() {
     			<BrowserRouter>
 				<Routes>
         <Route path="/home" element={<HomePage />} />
+        <Route path="/menu" element={<MenuPage />} />
 
 
 			App.jsx
