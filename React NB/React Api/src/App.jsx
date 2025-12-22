@@ -7,6 +7,7 @@ function App() {
 		setIsloadClicked(true);
 		const res = await fetch("https://jsonplaceholder.typicode.com/todos");
 		console.log("see response ", res);
+		const data = await res.json();
 		}
 
 
