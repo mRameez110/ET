@@ -5,7 +5,10 @@ function App() {
 		const [isloadClicked, setIsloadClicked] = useState(false);
 		const loadTodos = async () => {
 		setIsloadClicked(true);
+		const res = await fetch("https://jsonplaceholder.typicode.com/todos");
+		console.log("see response ", res);
 		}
+
 
 
 
