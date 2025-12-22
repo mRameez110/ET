@@ -15,7 +15,7 @@ function App() {
 		const getUsers = () => {
 			fetch("https://jsonplaceholder.typicode.com/users")
 			.then((res) => res.json())
-			
+			.then((data) => setTodos(data));
 		
 		};
 
