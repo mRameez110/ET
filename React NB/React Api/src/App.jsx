@@ -33,7 +33,15 @@ function App() {
 				<ol>
 					{todos.map((todo) => (
 						<li key={todo.id}> {todo.name || todo.title} </li>
-					))}
+					))
+								) : (
+				isloadClicked && (
+					<div className="spinner-border text-primary" role="status">
+						<span className="visually-hidden">Loading...</span>
+					</div>
+				)
+			)}
+
 				</ol>
 	
 
