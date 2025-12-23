@@ -25,6 +25,10 @@ function App() {
 			<button className="btn btn-primary mb-4" onClick={loadTodos}>
 				Load Todos
 			</button>
+			<button className="btn btn-primary mb-4" onClick={getUsers}>
+				Load Users
+			</button>
+			<br />	
 			</div>
 )
 
