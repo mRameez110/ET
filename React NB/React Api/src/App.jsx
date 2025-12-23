@@ -29,6 +29,14 @@ function App() {
 				Load Users
 			</button>
 			<br />	
+						{todos.length > 0 ? (
+				<ol>
+					{todos.map((todo) => (
+						<li key={todo.id}> {todo.name || todo.title} </li>
+					))}
+				</ol>
+	
+
 			</div>
 )
 
