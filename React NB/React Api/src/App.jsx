@@ -22,6 +22,9 @@ function App() {
 			return (
 		<div className="container mt-5">
 			<h2>Todos List</h2>
+			<button className="btn btn-primary mb-4" onClick={loadTodos}>
+				Load Todos
+			</button>
 			</div>
 )
 
