@@ -47,7 +47,9 @@ function App() {
                 </li>
               ))}
             </ul>
-
+            <button className="btn btn-primary mt-3" onClick={handleSubmit}>
+          Submit Quiz
+        </button>
 
    </>
   );
