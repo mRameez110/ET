@@ -15,7 +15,13 @@ function App() {
     const handleSubmit = () => {
     let correctCount = 0;
 
-   
+    quizData.forEach((q) => {
+      if (selectedAnswers[q.id] === q.answer) {
+        correctCount++;
+      }
+    });
+
+
   };
 
   return (
