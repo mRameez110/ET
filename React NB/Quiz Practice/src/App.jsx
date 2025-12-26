@@ -33,6 +33,21 @@ function App() {
               {quizData.map((q) => (
           <div className="card m-3" key={q.id}>
             <div className="card-header">{q.statement}</div>
+                        <ul className="list-group list-group-flush">
+              {q.options.map((opt, optInd) => (
+                <li
+                  className={`list-group-item ${
+                    selectedAnswers[q.id] === opt ? "active" : ""
+                  }`}
+                  key={optInd}
+                  onClick={() => handleAnswer(q.id, opt)}
+                  style={{ cursor: "pointer" }}
+                >
+                  {opt}
+                </li>
+              ))}
+            </ul>
+
 
    </>
   );
