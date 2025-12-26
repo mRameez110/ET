@@ -3,7 +3,7 @@ import quizData from './quizData.json';
 function App() {
   
   const [selectedAnswers, setSelectedAnswers] = useState({});
-  const [result, setResult] = useState(null);
+  const [results, setResults] = useState(null);
 
     const handleAnswer = (questionId, selectedOption) => {
     setSelectedAnswers({
@@ -22,6 +22,8 @@ function App() {
     });
 
     setResults(`You got ${correctCount} out of ${quizData.length} correct!`);
+    console.log("Answer object ", selectedAnswers)
+
   };
 
   return (
