@@ -28,6 +28,8 @@ function App() {
 
   return (
    <>
+    <h1 className="text-center">Quiz Practice</h1>
+      <div className="container p-3"></div>
    </>
   );
 }
