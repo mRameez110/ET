@@ -4,6 +4,14 @@ function App() {
   
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [result, setResult] = useState(null);
+
+    const handleAnswer = (questionId, selectedOption) => {
+    setSelectedAnswers({
+      ...selectedAnswers,
+      [questionId]: selectedOption,
+    });
+  };
+
   return (
    <>
    </>
