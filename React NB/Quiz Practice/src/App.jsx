@@ -50,6 +50,7 @@ function App() {
             <button className="btn btn-primary mt-3" onClick={handleSubmit}>
           Submit Quiz
         </button>
+        {results && <h3 className="mt-4">{results}</h3>}
 
    </>
   );
