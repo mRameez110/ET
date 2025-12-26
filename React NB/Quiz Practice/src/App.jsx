@@ -12,6 +12,12 @@ function App() {
     });
   };
 
+    const handleSubmit = () => {
+    let correctCount = 0;
+
+   
+  };
+
   return (
    <>
    </>
