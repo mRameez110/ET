@@ -21,7 +21,7 @@ function App() {
       }
     });
 
-
+    setResults(`You got ${correctCount} out of ${quizData.length} correct!`);
   };
 
   return (
