@@ -30,6 +30,10 @@ function App() {
    <>
     <h1 className="text-center">Quiz Practice</h1>
       <div className="container p-3"></div>
+              {quizData.map((q) => (
+          <div className="card m-3" key={q.id}>
+            <div className="card-header">{q.statement}</div>
+
    </>
   );
 }
