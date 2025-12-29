@@ -50,6 +50,9 @@ export default function AppAug20() {
                             Rs.{p.price}
                             <button onClick={() => handleIncrement(p.id)} disabled={!p.avail}>+</button>
                         </h4>
+                        <h4> Status = {p.avail ? "In Stock" : "Out of Stock"}</h4>
+                        <hr />
+
 
 
 
