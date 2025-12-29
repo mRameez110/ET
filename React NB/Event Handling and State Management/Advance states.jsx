@@ -45,6 +45,12 @@ export default function AppAug20() {
                         <div style={{color : p.avail ? "green" : "red"}} key={p.id}>
                         <h4> ID = {p.id}</h4>
                         <h4> Title = {p.title}</h4>
+                        <h4> Price =  
+                            <button>-</button>
+                            Rs.{p.price}
+                            <button onClick={() => handleIncrement(p.id)} disabled={!p.avail}>+</button>
+                        </h4>
+
 
 
             </>
