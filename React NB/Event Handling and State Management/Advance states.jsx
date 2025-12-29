@@ -23,8 +23,15 @@ export default function AppAug20() {
     );
 
      const handleIncrement = (id) => {
-        let copyProducts = [...products];
-        let index = copyProducts.findIndex(p => p.id === id);
-        copyProducts[index].price = copyProducts[index].price + 5000;
-        setProducts(copyProducts);
+        // let copyProducts = [...products];
+        // let index = copyProducts.findIndex(p => p.id === id);
+        // copyProducts[index].price = copyProducts[index].price + 5000;
+        // setProducts(copyProducts);
+
+         setProducts(products.map(
+                p =>({
+                    ...p,
+                    price: p.id === id ? p.price + 5000: p.price
+                })
+            ));
         }
