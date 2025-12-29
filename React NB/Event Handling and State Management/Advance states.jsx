@@ -52,9 +52,10 @@ export default function AppAug20() {
                         </h4>
                         <h4> Status = {p.avail ? "In Stock" : "Out of Stock"}</h4>
                         <hr />
-
-
-
-
-            </>
+                        </div>
+                    )
+                })
+            }
+           </>
         )
+    }
