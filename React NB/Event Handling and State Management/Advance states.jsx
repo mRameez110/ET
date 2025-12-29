@@ -39,6 +39,10 @@ export default function AppAug20() {
         return (
             <>
                         <h1>Inventroy System </h1>
+                                    {
+                products.map(p => {
+                    return (
+
 
             </>
         )
