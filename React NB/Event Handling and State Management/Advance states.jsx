@@ -21,3 +21,5 @@ export default function AppAug20() {
             }
         ]
     );
+
+     const handleIncrement = (id) => {
