@@ -42,6 +42,8 @@ export default function AppAug20() {
                                     {
                 products.map(p => {
                     return (
+                        <div style={{color : p.avail ? "green" : "red"}} key={p.id}>
+                        
 
 
             </>
