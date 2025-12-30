@@ -55,4 +55,22 @@ let products = [
             {color: "Red", price: 55000},
         ]
     },
+        {
+        id: 2,
+        title: "Mobile Phone A2",
+        avail: false,
+        colors: [
+            {color: "Black", price: 40000},
+            {color: "White", price: 40000},
+        ]
+    },
+    {
+        id: 3,
+        title: "Mobile Phone A3",
+        avail: true,
+        colors: [
+            {color: "Black", price: 40000},
+            {color: "White", price: 40000},
+        ]
+    }
 ]
