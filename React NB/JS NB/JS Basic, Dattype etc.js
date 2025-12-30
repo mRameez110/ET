@@ -45,34 +45,41 @@
 // console.log(product.units);
 
 
-let products = [
+// let products = [
+//     {
+//         id: 1,
+//         title: "Mobile Phone A1",
+//         avail: true,
+//         colors: [
+//             {color: "Black", price: 50000},
+//             {color: "Red", price: 55000},
+//         ]
+//     },
+//         {
+//         id: 2,
+//         title: "Mobile Phone A2",
+//         avail: false,
+//         colors: [
+//             {color: "Black", price: 40000},
+//             {color: "White", price: 40000},
+//         ]
+//     },
+//     {
+//         id: 3,
+//         title: "Mobile Phone A3",
+//         avail: true,
+//         colors: [
+//             {color: "Black", price: 40000},
+//             {color: "White", price: 40000},
+//         ]
+//     }
+// 
+
+// console.log(products[0].colors[0].price);  // 50000
+
+let cart = [
     {
         id: 1,
-        title: "Mobile Phone A1",
-        avail: true,
-        colors: [
-            {color: "Black", price: 50000},
-            {color: "Red", price: 55000},
-        ]
-    },
-        {
-        id: 2,
-        title: "Mobile Phone A2",
-        avail: false,
-        colors: [
-            {color: "Black", price: 40000},
-            {color: "White", price: 40000},
-        ]
-    },
-    {
-        id: 3,
-        title: "Mobile Phone A3",
-        avail: true,
-        colors: [
-            {color: "Black", price: 40000},
-            {color: "White", price: 40000},
-        ]
+        q: 1,
     }
-]
-
-console.log(products[0].colors[0].price);  // 50000
+];
