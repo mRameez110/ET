@@ -29,4 +29,17 @@
 // console.log(typeof x);
 
 // Collections: array
-let marks = [10, 8, 6, 9];
+// let marks = [10, 8, 6, 9];
+
+// object/record: collection of properties
+// field or properties = key:value pairs
+let product = {
+    id: 1,
+    title: "Mobile Phone",
+    price: 50000,
+    avail: true
+};
+
+console.log(product);
+console.log(product.title);
+console.log(product.units);
