@@ -33,13 +33,26 @@
 
 // object/record: collection of properties
 // field or properties = key:value pairs
-let product = {
-    id: 1,
-    title: "Mobile Phone",
-    price: 50000,
-    avail: true
-};
+// let product = {
+//     id: 1,
+//     title: "Mobile Phone",
+//     price: 50000,
+//     avail: true
+// };
 
-console.log(product);
-console.log(product.title);
-console.log(product.units);
+// console.log(product);
+// console.log(product.title);
+// console.log(product.units);
+
+
+let products = [
+    {
+        id: 1,
+        title: "Mobile Phone A1",
+        avail: true,
+        colors: [
+            {color: "Black", price: 50000},
+            {color: "Red", price: 55000},
+        ]
+    },
+]
