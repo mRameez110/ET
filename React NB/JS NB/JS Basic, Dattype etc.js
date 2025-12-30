@@ -74,3 +74,5 @@ let products = [
         ]
     }
 ]
+
+console.log(products[0].colors[0].price);  // 50000
