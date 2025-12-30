@@ -19,3 +19,11 @@
 // let x;
 // console.log(x);
 // console.log(typeof x);
+
+let x = 10.7;
+console.log(x);
+console.log(typeof x);
+console.log("---------------------")
+x = "ABC";
+console.log(x);
+console.log(typeof x);
