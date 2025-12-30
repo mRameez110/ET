@@ -4,6 +4,18 @@
 // data types
 // Primitives (Single Value): number, string, boolean, undefined
 
-let x = 10.7;
-console.log(x);
-console.log(typeof x);
+// let x = 10.7;
+// console.log(x);
+// console.log(typeof x);
+
+// let city = "lahore";
+// console.log(city);
+// console.log(typeof city);
+
+// let active = false;
+// console.log(active);
+// console.log(typeof active);
+
+// let x;
+// console.log(x);
+// console.log(typeof x);
