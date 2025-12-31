@@ -7,5 +7,8 @@
 // });
 // console.log(arr);
 
-let ans1 = array.map(x => console.log(x * x));
-console.log(ans1);
+// let ans1 = array.map(x => console.log(x * x));
+// console.log(ans1);
+
+let ans2 = array.forEach(x => x * x);
+console.log(ans2);
