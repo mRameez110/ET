@@ -5,3 +5,4 @@ let arr = marks.map(x => {
     if(x < 25)
         return x + 5;
 });
+console.log(arr);
