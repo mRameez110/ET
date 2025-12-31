@@ -10,5 +10,7 @@
 // let ans1 = array.map(x => console.log(x * x));
 // console.log(ans1);
 
-let ans2 = array.forEach(x => x * x);
-console.log(ans2);
+// let ans2 = array.forEach(x => x * x);
+// console.log(ans2);
+
+let array = [10, 20, 30, 40, 50];
