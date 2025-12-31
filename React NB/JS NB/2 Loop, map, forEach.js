@@ -17,3 +17,7 @@ let array = [10, 20, 30, 40, 50];
 
 let squareArr = array.map(ahmad => ahmad * ahmad);
 console.log(squareArr);
+
+let mappedArray = array.map(x => x * 1.10);
+console.log(mappedArray);
+console.log(array);
