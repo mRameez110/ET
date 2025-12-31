@@ -14,3 +14,6 @@
 // console.log(ans2);
 
 let array = [10, 20, 30, 40, 50];
+
+let squareArr = array.map(ahmad => ahmad * ahmad);
+console.log(squareArr);
