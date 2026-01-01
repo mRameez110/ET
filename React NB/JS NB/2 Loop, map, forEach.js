@@ -23,5 +23,9 @@ console.log(squareArr);
 // console.log(array);
 
 // value based (ES6) - forEach
-array.forEach((x, i) => console.log(x, i));
-array.forEach(x => console.log(x + 5));
+// array.forEach((x, i) => console.log(x, i));
+// array.forEach(x => console.log(x + 5));
+
+// if, loops
+for(let i=0; i < array.length; i++)
+    array[i] = array[i] + 5;
