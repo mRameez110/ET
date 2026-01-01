@@ -30,13 +30,20 @@ console.log(squareArr);
 // for(let i=0; i < array.length; i++)
 //     array[i] = array[i] + 5;
 
-let marks = 55;
+// let marks = 55;
 // if(marks < 50 )
 //     console.log("F");
 // else
 //     console.log("D")
 
-if(marks < 50 )
-    console.log("F");
-else if(marks > 50)
-    console.log("P")
+// if(marks < 50 )
+//     console.log("F");
+// else if(marks > 50)
+//     console.log("P")
+
+
+let marks = 40;
+if(marks > 50)
+    console.log("Pass")
+if(marks > 90)
+    console.log("Scholarship");
