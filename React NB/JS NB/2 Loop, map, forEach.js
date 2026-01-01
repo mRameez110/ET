@@ -27,5 +27,11 @@ console.log(squareArr);
 // array.forEach(x => console.log(x + 5));
 
 // if, loops
-for(let i=0; i < array.length; i++)
-    array[i] = array[i] + 5;
+// for(let i=0; i < array.length; i++)
+//     array[i] = array[i] + 5;
+
+let marks = 55;
+if(marks < 50 )
+    console.log("F");
+else
+    console.log("D")
