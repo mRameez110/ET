@@ -31,7 +31,12 @@ console.log(squareArr);
 //     array[i] = array[i] + 5;
 
 let marks = 55;
+// if(marks < 50 )
+//     console.log("F");
+// else
+//     console.log("D")
+
 if(marks < 50 )
     console.log("F");
-else
-    console.log("D")
+else if(marks > 50)
+    console.log("P")
