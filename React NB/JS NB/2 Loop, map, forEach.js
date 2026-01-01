@@ -42,8 +42,16 @@ console.log(squareArr);
 //     console.log("P")
 
 
-let marks = 40;
-if(marks > 50)
-    console.log("Pass")
-if(marks > 90)
-    console.log("Scholarship");
+// let marks = 40;
+// if(marks > 50)
+//     console.log("Pass")
+// if(marks > 90)
+//     console.log("Scholarship");
+
+
+let marks = 90;
+if(marks > 50){
+    console.log("Pass");
+    console.log("Congratulations");
+}
+
