@@ -54,4 +54,7 @@ if(marks > 50){
     console.log("Pass");
     console.log("Congratulations");
 }
-
+else {
+    console.log("Fail");
+    console.log("Work hard")
+}
