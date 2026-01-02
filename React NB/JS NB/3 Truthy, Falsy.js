@@ -13,7 +13,14 @@
 // else
 //     console.log("FALSY");
 
-if(product.length)
+// if(product.length)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+let product = {id: 1, title: "LED TV", price: 50000};
+
+if(product)
     console.log("TRUTHY");
 else
     console.log("FALSY");
