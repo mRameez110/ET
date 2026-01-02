@@ -49,3 +49,4 @@ if(cities)
     console.log("TRUTHY");
 else
     console.log("FALSY");
+confirm.log(cities.length);
