@@ -26,11 +26,19 @@
 //     console.log("FALSY");
 
 
-let cities = ["adsa", "adasd"];
-console.log(cities.length);
+// let cities = ["adsa", "adasd"];
+// console.log(cities.length);
 
-if(cities.length)
+// if(cities.length)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+let cities = [];
+
+if(cities)
     console.log("TRUTHY");
 else
     console.log("FALSY");
+
 
