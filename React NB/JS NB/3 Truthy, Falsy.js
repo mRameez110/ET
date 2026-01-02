@@ -40,5 +40,5 @@ if(cities)
     console.log("TRUTHY");
 else
     console.log("FALSY");
-
+console.log(cities.length);
 
