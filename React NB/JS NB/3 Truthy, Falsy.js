@@ -6,3 +6,4 @@
 
 // OBJECT: empty object
 let product = {id: 12};
+console.log(Object.values(product).length);
