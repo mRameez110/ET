@@ -18,9 +18,19 @@
 // else
 //     console.log("FALSY");
 
-let product = {id: 1, title: "LED TV", price: 50000};
+// let product = {id: 1, title: "LED TV", price: 50000};
 
-if(product)
+// if(product)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+
+let cities = ["adsa", "adasd"];
+console.log(cities.length);
+
+if(cities.length)
     console.log("TRUTHY");
 else
     console.log("FALSY");
+
