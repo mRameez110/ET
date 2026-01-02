@@ -5,5 +5,10 @@
 // truthy and falsy values in each data type
 
 // OBJECT: empty object
-let product = {id: 12};
-console.log(Object.values(product).length);
+// let product = {id: 12};
+// console.log(Object.values(product).length);
+
+if(Object.values(product).length)
+    console.log("TRUTHY");
+else
+    console.log("FALSY");
