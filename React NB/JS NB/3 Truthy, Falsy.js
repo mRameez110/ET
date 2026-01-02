@@ -34,11 +34,18 @@
 // else
 //     console.log("FALSY");
 
-let cities = [];
+// let cities = [];
+
+// if(cities)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+// console.log(cities.length);
+
+
+let cities = ["Lahore", "Karachi", "Peshawar"];
 
 if(cities)
     console.log("TRUTHY");
 else
     console.log("FALSY");
-console.log(cities.length);
-
