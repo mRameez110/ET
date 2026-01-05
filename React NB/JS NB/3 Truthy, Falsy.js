@@ -43,10 +43,17 @@
 // console.log(cities.length);
 
 
-let cities = ["Lahore", "Karachi", "Peshawar"];
+// let cities = ["Lahore", "Karachi", "Peshawar"];
 
-if(cities)
+// if(cities)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+// confirm.log(cities.length);
+
+
+ let city = null;
+if(city)
     console.log("TRUTHY");
 else
-    console.log("FALSY");
-confirm.log(cities.length);
+    console.log("FALSY-no city");
