@@ -80,11 +80,16 @@
 //     console.log("FALSY");
 
 
-let active = 10 / "amjad"; // NaN
-console.log(active);
-console.log(typeof active);
+// let active = 10 / "amjad"; // NaN
+// console.log(active);
+// console.log(typeof active);
 
-if(active)
-    console.log("TRUE");
-else
-    console.log("FALSE");
+// if(active)
+//     console.log("TRUE");
+// else
+//     console.log("FALSE");
+
+
+let active = -10 / 0;
+console.log(active); // Inifinity
+console.log(typeof active);
