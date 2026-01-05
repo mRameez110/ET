@@ -66,7 +66,14 @@
 //     console.log("FALSY");
 
 
-let city = "0";
+// let city = "0";
+// if(city)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+let city = "";
+
 if(city)
     console.log("TRUTHY");
 else
