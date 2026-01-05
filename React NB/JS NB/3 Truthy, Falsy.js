@@ -59,7 +59,14 @@
 //     console.log("FALSY-no city");
 
 
-let city; // default value is undefined
+// let city; // default value is undefined
+// if(city)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+
+let city = "0";
 if(city)
     console.log("TRUTHY");
 else
