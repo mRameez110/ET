@@ -90,11 +90,20 @@
 //     console.log("FALSE");
 
 
-let active = -10 / 0;
-console.log(active); // Inifinity
-console.log(typeof active);
+// let active = -10 / 0;
+// console.log(active); // Inifinity
+// console.log(typeof active);
 
-if(active)
-    console.log("TRUE");
+// if(active)
+//     console.log("TRUE");
+// else
+//     console.log("FALSE");
+
+
+
+let active = true;
+
+if(active === true)
+    console.log("You can proceed");
 else
-    console.log("FALSE");
+    console.log("Your account is blocked");
