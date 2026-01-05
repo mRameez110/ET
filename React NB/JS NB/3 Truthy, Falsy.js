@@ -72,9 +72,14 @@
 // else
 //     console.log("FALSY");
 
-let city = "";
+// let city = "";
 
-if(city)
-    console.log("TRUTHY");
-else
-    console.log("FALSY");
+// if(city)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY");
+
+
+let active = 10 / "amjad"; // NaN
+console.log(active);
+console.log(typeof active);
