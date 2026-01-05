@@ -83,3 +83,8 @@
 let active = 10 / "amjad"; // NaN
 console.log(active);
 console.log(typeof active);
+
+if(active)
+    console.log("TRUE");
+else
+    console.log("FALSE");
