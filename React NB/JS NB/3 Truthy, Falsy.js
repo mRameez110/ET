@@ -52,8 +52,15 @@
 // confirm.log(cities.length);
 
 
- let city = null;
+//  let city = null;
+// if(city)
+//     console.log("TRUTHY");
+// else
+//     console.log("FALSY-no city");
+
+
+let city; // default value is undefined
 if(city)
     console.log("TRUTHY");
 else
-    console.log("FALSY-no city");
+    console.log("FALSY");
