@@ -93,3 +93,8 @@
 let active = -10 / 0;
 console.log(active); // Inifinity
 console.log(typeof active);
+
+if(active)
+    console.log("TRUE");
+else
+    console.log("FALSE");
