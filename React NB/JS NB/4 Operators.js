@@ -12,3 +12,6 @@
 
 // Truthy Expr || whatever = Truthy Expr
 // Falsy || Expr = Expr
+
+let ans = "" || "adasdf";
+console.log(ans);
