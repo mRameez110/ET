@@ -1,0 +1,3 @@
+// short circuit
+// && , F
+// || , T
