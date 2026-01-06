@@ -15,3 +15,5 @@
 
 let ans = "" || "adasdf";
 console.log(ans);
+
+// (? :) if expression
