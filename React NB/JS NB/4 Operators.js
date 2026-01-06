@@ -13,7 +13,10 @@
 // Truthy Expr || whatever = Truthy Expr
 // Falsy || Expr = Expr
 
-let ans = "" || "adasdf";
-console.log(ans);
+// let ans = "" || "adasdf";
+// console.log(ans);
 
 // (? :) if expression
+
+let max = x > y ? (x > z ? x : z) : ( y > z ? y : z);
+console.log(max);
