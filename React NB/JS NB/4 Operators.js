@@ -9,3 +9,6 @@
 // T || F = T
 // F || T = T
 // F || F = F
+
+// Truthy Expr || whatever = Truthy Expr
+// Falsy || Expr = Expr
