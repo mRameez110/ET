@@ -37,3 +37,7 @@
 //     console.log(errorMessage);
 
 // <div> error && errorMessage </div>
+
+
+// logical operators
+// &&, ||, !
