@@ -21,5 +21,10 @@
 // let max = x > y ? (x > z ? x : z) : ( y > z ? y : z);
 // console.log(max);
 
-let max = x > y && x;
-console.log(max);
+// let max = x > y && x;
+// console.log(max);
+
+if(x > y)
+    max = x;
+else
+    max = y;
