@@ -32,3 +32,6 @@
 
 let error = true;
 let errorMessage = "Error in loading data";
+
+if(error === true)
+    console.log(errorMessage);
