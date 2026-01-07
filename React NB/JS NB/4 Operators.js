@@ -30,8 +30,10 @@
 //     max = y;
 
 
-let error = true;
-let errorMessage = "Error in loading data";
+// let error = true;
+// let errorMessage = "Error in loading data";
 
-if(error === true)
-    console.log(errorMessage);
+// if(error === true)
+//     console.log(errorMessage);
+
+// <div> error && errorMessage </div>
