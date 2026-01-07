@@ -24,7 +24,11 @@
 // let max = x > y && x;
 // console.log(max);
 
-if(x > y)
-    max = x;
-else
-    max = y;
+// if(x > y)
+//     max = x;
+// else
+//     max = y;
+
+
+let error = true;
+let errorMessage = "Error in loading data";
