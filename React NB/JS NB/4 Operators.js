@@ -41,3 +41,6 @@
 
 // logical operators
 // &&, ||, !
+
+let ans = !"";
+console.log(ans);
