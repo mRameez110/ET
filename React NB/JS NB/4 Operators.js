@@ -42,5 +42,8 @@
 // logical operators
 // &&, ||, !
 
-let ans = !"";
-console.log(ans);
+// let ans = !"";
+// console.log(ans);
+
+// let x = false;
+// console.log(!!x);
