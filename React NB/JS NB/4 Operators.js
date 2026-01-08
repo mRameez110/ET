@@ -54,5 +54,8 @@
 // Truthy && expr = expr
 // Falsy Expr && whatever = Falsy
 
-let ans = !!(9-8-1 && 10);
-console.log(ans);
+// let ans = !!(9-8-1 && 10);
+// console.log(ans);
+
+// let ans = 109 > 50 && 10 + 2;
+// console.log(ans);
