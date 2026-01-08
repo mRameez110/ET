@@ -48,5 +48,8 @@
 // let x = false;
 // console.log(!!x);
 
-let ans = !!(10 > 5);
-console.log(ans);
+// let ans = !!(10 > 5);
+// console.log(ans);
+
+// Truthy && expr = expr
+// Falsy Expr && whatever = Falsy
