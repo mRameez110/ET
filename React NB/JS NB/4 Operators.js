@@ -47,3 +47,6 @@
 
 // let x = false;
 // console.log(!!x);
+
+let ans = !!(10 > 5);
+console.log(ans);
