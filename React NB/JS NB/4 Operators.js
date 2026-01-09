@@ -90,5 +90,8 @@
 // console.log(x);
 
 
-let ans = x++ + y;
-console.log(ans);
+// let ans = x++ + y;
+// console.log(ans);
+
+x++; // x = x + 1;
+++x; // x = x + 1;
