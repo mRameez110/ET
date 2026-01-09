@@ -65,5 +65,8 @@
 
 // <, <=, >, >=, ==, !=
 
-let ans = 100 === "100";
-console.log(ans);
+// let ans = 100 === "100";
+// console.log(ans);
+
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
