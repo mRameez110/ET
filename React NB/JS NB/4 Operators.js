@@ -64,3 +64,6 @@
 // console.log(ans);
 
 // <, <=, >, >=, ==, !=
+
+let ans = 100 === "100";
+console.log(ans);
