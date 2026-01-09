@@ -93,5 +93,9 @@
 // let ans = x++ + y;
 // console.log(ans);
 
-x++; // x = x + 1;
-++x; // x = x + 1;
+// x++; // x = x + 1;
+// ++x; // x = x + 1;
+
+
+let ans = x / y;
+console.log(ans);
