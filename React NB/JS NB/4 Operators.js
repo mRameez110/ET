@@ -60,5 +60,7 @@
 // let ans = 109 > 50 && 10 + 2;
 // console.log(ans);
 
-let ans = 10 > 5 && 20 < 100;
-console.log(ans);
+// let ans = 10 > 5 && 20 < 100;
+// console.log(ans);
+
+// <, <=, >, >=, ==, !=
