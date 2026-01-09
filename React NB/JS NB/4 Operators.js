@@ -83,3 +83,8 @@
 // Comma operator
 // Unary operators
 // Relational operators
+
+
+let x = 10;
+x += 8; // x = x + 8;
+console.log(x);
