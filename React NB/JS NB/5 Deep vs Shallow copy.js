@@ -21,3 +21,5 @@
 let products = [
     { id: 1, title: "Samsung Mobile A1", price: 50000, colors: ["black", "white"] }
 ];
+
+let copyProducts = products;  // deep copy ?
