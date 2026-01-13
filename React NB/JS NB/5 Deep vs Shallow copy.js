@@ -8,3 +8,5 @@ let array = [
     [10, 20, 45],
     [3, 56, 88],
 ];
+
+let copyArray = array; // shallow copy 
