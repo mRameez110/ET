@@ -13,3 +13,5 @@ let array = [
 
 let copyArray = [];
 copyArray[0] = [...array[0]];
+
+copyArray[0][0] = 99;
