@@ -25,3 +25,5 @@ let products = [
 let copyProducts = products;  // deep copy ?
 
 copyProducts[0].price = 40000;
+
+console.log(products);
