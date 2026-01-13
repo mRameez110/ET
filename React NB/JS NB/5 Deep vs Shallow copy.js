@@ -9,4 +9,7 @@ let array = [
     [3, 56, 88],
 ];
 
-let copyArray = array; // shallow copy 
+// let copyArray = array; // shallow copy 
+
+let copyArray = [];
+copyArray[0] = [...array[0]];
