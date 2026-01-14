@@ -43,3 +43,4 @@ let product1 = {
 };
 
 let product2 = {...product1};
+product2.colors = [...product1.colors];
