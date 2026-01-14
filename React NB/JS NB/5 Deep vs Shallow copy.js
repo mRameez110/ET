@@ -31,3 +31,5 @@ let array = [
 let array2 = [...array];
 
 array[0] = 99;
+console.log(array);
+console.log(array2);
