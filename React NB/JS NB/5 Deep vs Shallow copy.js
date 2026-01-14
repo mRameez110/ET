@@ -29,3 +29,5 @@ let array = [
 // console.log(products);
 
 let array2 = [...array];
+
+array[0] = 99;
