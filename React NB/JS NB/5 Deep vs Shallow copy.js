@@ -48,3 +48,5 @@ product2.colors = [...product1.colors];
 product2.colors[1] = "red";
 console.log(product1);
 console.log(product2);
+
+product1.colors.push("green");
