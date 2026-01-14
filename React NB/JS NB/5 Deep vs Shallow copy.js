@@ -41,3 +41,5 @@ let product1 = {
     price: 50000,
     colors: ["black", "white"]
 };
+
+let product2 = {...product1};
