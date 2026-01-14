@@ -28,8 +28,16 @@ let array = [
 
 // console.log(products);
 
-let array2 = [...array];
+// let array2 = [...array];
 
-array[0] = 99;
-console.log(array);
-console.log(array2);
+// array[0] = 99;
+// console.log(array);
+// console.log(array2);
+
+// deep copy ... 1 level ref data copy
+let product1 = {
+    id: 1,
+    title: "Mobile",
+    price: 50000,
+    colors: ["black", "white"]
+};
