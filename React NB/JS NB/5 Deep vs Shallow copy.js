@@ -50,3 +50,5 @@ console.log(product1);
 console.log(product2);
 
 product1.colors.push("green");
+console.log(product1);
+console.log(product2);
