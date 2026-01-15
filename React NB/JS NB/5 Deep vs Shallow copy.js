@@ -71,3 +71,5 @@ let product1 = {
     title: "Mobile",
     price: 50000
 };
+
+let product2 = product1;
