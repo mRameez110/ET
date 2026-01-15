@@ -73,3 +73,4 @@ let product1 = {
 };
 
 let product2 = product1;
+console.log(product2);
