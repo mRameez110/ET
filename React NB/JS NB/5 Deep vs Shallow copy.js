@@ -74,3 +74,4 @@ let product1 = {
 
 let product2 = product1;
 console.log(product2);
+product2.id = 2;
