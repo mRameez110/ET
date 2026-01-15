@@ -61,3 +61,4 @@ let product1 = {
 };  
 
 let product2 = {...product1};
+product2.id = 2;
