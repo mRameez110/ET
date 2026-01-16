@@ -102,3 +102,5 @@ array2[0] = 99;
 console.log(array);
 console.log(array2);
 array[1] = 88;
+console.log(array);
+console.log(array2);
