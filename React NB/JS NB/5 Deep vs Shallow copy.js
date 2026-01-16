@@ -3,11 +3,11 @@
 // reference types: array, object, function
 
 // 2D
-let array = [
-    [100, 2, 3],
-    [10, 20, 45],
-    [3, 56, 88],
-];
+// let array = [
+//     [100, 2, 3],
+//     [10, 20, 45],
+//     [3, 56, 88],
+// ];
 
 // let copyArray = array; // shallow copy 
 
@@ -79,8 +79,13 @@ let array = [
 // console.log(product2);
 
 
-let x = 10;
-let y = x;
-y = 20;
-console.log(x);
-console.log(y);
+// Primitive data types (value type)
+// let x = 10;
+// let y = x;
+// y = 20;
+// console.log(x);
+// console.log(y);
+
+
+// Non Primitive Data Type (Reference data Types)
+let array = [10, 20, 30];
