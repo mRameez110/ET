@@ -91,3 +91,5 @@
 let array = [10, 20, 30];
 let array2 = [...array]; // deep copy(duplicate)
 array2[0] = 99;
+console.log(array);
+console.log(array2);
