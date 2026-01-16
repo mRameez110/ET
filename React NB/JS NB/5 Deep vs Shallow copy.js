@@ -89,3 +89,4 @@
 
 // Non Primitive Data Type (Reference data Types)
 let array = [10, 20, 30];
+let array2 = [...array]; // deep copy(duplicate)
