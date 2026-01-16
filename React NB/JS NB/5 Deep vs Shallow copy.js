@@ -101,3 +101,4 @@ let array2 = array; // shallow copy
 array2[0] = 99;
 console.log(array);
 console.log(array2);
+array[1] = 88;
