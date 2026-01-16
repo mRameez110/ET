@@ -66,14 +66,18 @@ let array = [
 // console.log(product2);
 
 // shallow copy
-let product1 = {
-    id: 1,
-    title: "Mobile",
-    price: 50000
-};
+// let product1 = {
+//     id: 1,
+//     title: "Mobile",
+//     price: 50000
+// };
 
-let product2 = product1;
-console.log(product2);
-product2.id = 2;
-console.log(product1);
-console.log(product2);
+// let product2 = product1;
+// console.log(product2);
+// product2.id = 2;
+// console.log(product1);
+// console.log(product2);
+
+
+let x = 10;
+let y = x;
