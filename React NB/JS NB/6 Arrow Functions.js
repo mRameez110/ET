@@ -12,3 +12,4 @@ function f(i){
     console.log(x);
     let x = 90;
 }
+console.log(x);
