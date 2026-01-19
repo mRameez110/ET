@@ -20,3 +20,4 @@ for(let i=0; i<10; i++){
     let ans = f(i);
     console.log(ans);
 }
+console.log(i);
