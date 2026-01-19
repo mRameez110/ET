@@ -13,3 +13,5 @@ function f(i){
     let x = 90;
 }
 console.log(x);
+f(5);
+console.log(x);
