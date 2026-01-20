@@ -23,3 +23,6 @@
 // console.log(i);
 
 // functional programming
+
+let array = [10, 20, 30];
+
