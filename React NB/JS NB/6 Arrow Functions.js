@@ -29,3 +29,4 @@ let increment = function(x){
     return x * 2;
 }
 let copyArr = array.map(increment);
+console.log(copyArr);
