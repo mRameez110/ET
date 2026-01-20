@@ -16,8 +16,10 @@
 // f(5);
 // console.log(x);
 
-for(let i=0; i<10; i++){
-    let ans = f(i);
-    console.log(ans);
-}
-console.log(i);
+// for(let i=0; i<10; i++){
+//     let ans = f(i);
+//     console.log(ans);
+// }
+// console.log(i);
+
+// functional programming
