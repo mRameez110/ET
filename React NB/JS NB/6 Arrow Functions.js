@@ -33,3 +33,4 @@
 
 let array = [10, 20, 30];
 let increment = x => x * 2;
+let copyArr = array.map(increment);
