@@ -39,5 +39,6 @@
 
 let array = [10, 20, 30];
 let copyArr = array.map(x => x * 2);
+copyArr[0] = 99;
 
 
