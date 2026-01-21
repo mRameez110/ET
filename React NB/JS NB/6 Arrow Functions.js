@@ -37,8 +37,10 @@
 // console.log(copyArr);
 
 
-let array = [10, 20, 30];
-let copyArr = array.map(x => x * 2);
-copyArr[0] = 99;
-console.log(array);
-console.log(copyArr);
+// let array = [10, 20, 30];
+// let copyArr = array.map(x => x * 2);
+// copyArr[0] = 99;
+// console.log(array);
+// console.log(copyArr);
+
+    // Anonymous function
