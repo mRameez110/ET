@@ -44,3 +44,7 @@
 // console.log(copyArr);
 
     // Anonymous function
+
+let f = function(x, y){
+    return x + y;
+}
