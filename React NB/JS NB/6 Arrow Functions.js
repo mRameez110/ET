@@ -57,3 +57,4 @@
 (x, y) => x + y;
 x => x + 1;
 () => 42;
+() => console.log("hello");
