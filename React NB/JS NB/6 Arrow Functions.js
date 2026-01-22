@@ -58,3 +58,4 @@
 x => x + 1;
 () => 42;
 () => console.log("hello");
+_ => console.log("hello")
