@@ -54,3 +54,4 @@
 // functions
 
 // arrow
+(x, y) => x + y;
