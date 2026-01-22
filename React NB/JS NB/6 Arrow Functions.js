@@ -45,8 +45,12 @@
 
     // Anonymous function
 
-let f = function(x, y){
-    return x + y;
-}
-let ans = f(10, 20);
-console.log(ans);
+// let f = function(x, y){
+//     return x + y;
+// }
+// let ans = f(10, 20);
+// console.log(ans);
+
+// functions
+
+// arrow
