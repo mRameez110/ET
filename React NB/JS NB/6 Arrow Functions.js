@@ -54,8 +54,15 @@
 // functions
 
 // arrow
-(x, y) => x + y;
-x => x + 1;
-() => 42;
-() => console.log("hello");
-_ => console.log("hello")
+// (x, y) => x + y;
+// x => x + 1;
+// () => 42;
+// () => console.log("hello");
+// _ => console.log("hello")
+
+
+(x, y) => {
+    return x + y;
+}
+
+
