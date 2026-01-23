@@ -65,4 +65,6 @@
     return x + y;
 }
 
-
+(x, y) => {
+    let ans = x + y;
+}
