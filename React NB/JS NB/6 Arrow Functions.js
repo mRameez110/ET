@@ -61,11 +61,17 @@
 // _ => console.log("hello")
 
 
-(x, y) => {
-    return x + y;
-}
+// (x, y) => {
+//     return x + y;
+// }
+
+// (x, y) => {
+//     let ans = x + y;
+//     console.log(ans);
+// }
 
 (x, y) => {
-    let ans = x + y;
-    console.log(ans);
+    x++;
+    y++;
+
 }
