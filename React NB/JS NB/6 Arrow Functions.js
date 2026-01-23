@@ -67,4 +67,5 @@
 
 (x, y) => {
     let ans = x + y;
+    console.log(ans);
 }
