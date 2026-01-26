@@ -88,7 +88,8 @@
 // let obj = g();
 // console.log(obj);
 
-let sum = (x, y) => x + y;
+// let sum = (x, y) => x + y;
+// let ans = sum(10, 20);
+// console.log(ans);
 
-let ans = sum(10, 20);
-console.log(ans);
+let mod = (x, y) => x % y;
