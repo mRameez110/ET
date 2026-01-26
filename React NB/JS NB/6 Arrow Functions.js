@@ -84,6 +84,9 @@
 // let f = () => [10, 20, 30];
 // console.log(f());
 
-let g = () => ({id: 1, title: "LED"});
-let obj = g();
-console.log(obj);
+// let g = () => ({id: 1, title: "LED"});
+// let obj = g();
+// console.log(obj);
+
+let sum = (x, y) => x + y;
+
