@@ -81,6 +81,8 @@
 
 
 
-let f = () => [10, 20, 30];
-console.log(f());
+// let f = () => [10, 20, 30];
+// console.log(f());
 
+let g = () => ({id: 1, title: "LED"});
+let obj = g();
