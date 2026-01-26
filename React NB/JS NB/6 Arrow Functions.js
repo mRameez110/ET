@@ -94,3 +94,4 @@
 
 let mod = (x, y) => x % y;
 let ans = mod(10, 3);
+console.log(ans);
