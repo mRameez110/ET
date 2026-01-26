@@ -91,3 +91,4 @@
 let sum = (x, y) => x + y;
 
 let ans = sum(10, 20);
+console.log(ans);
