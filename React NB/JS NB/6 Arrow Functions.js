@@ -70,11 +70,15 @@
 //     console.log(ans);
 // }
 
-(x, y) => {
-    x++;
-    y++;
-    if(x > y)
-        return x + y;
-    else
-        return x - y;
-}
+// (x, y) => {
+//     x++;
+//     y++;
+//     if(x > y)
+//         return x + y;
+//     else
+//         return x - y;
+// }
+
+
+
+let f = () => [10, 20, 30];
