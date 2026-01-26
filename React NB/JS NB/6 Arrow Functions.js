@@ -86,3 +86,4 @@
 
 let g = () => ({id: 1, title: "LED"});
 let obj = g();
+console.log(obj);
