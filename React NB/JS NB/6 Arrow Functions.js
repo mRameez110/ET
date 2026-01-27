@@ -123,3 +123,4 @@
 
 // functional programming version using reduce
 const sumArrayFP = arr => arr.reduce((acc, curr) => acc + curr, 0);
+let totalSumFP = sumArrayFP(numbers);
