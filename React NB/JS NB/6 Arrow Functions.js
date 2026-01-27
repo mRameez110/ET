@@ -98,9 +98,20 @@
 
 
 // Normal Functions
-function sum(x, y){
-    return x + y;
-}
+// function sum(x, y){
+//     return x + y;
+// }
 
-let ans = sum(10, 20);
-console.log(ans)
+// let ans = sum(10, 20);
+// console.log(ans)
+
+
+
+// utility function: sum of array values
+function sumArray(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total;
+}
