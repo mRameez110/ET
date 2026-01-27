@@ -126,3 +126,4 @@ const sumArrayFP = arr => arr.reduce((acc, curr) => acc + curr, 0);
 let totalSumFP = sumArrayFP(numbers);
 console.log("Total Sum (FP) =", totalSumFP);
 totalSumFP = sumArrayFP([1, 2, 3, 4, 5]);
+console.log("Total Sum (FP) =", totalSumFP);
