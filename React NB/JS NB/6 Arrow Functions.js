@@ -118,3 +118,4 @@ function sumArray(arr) {
 
 let numbers = [5, 10, 15];
 let totalSum = sumArray(numbers);
+console.log("Total Sum =", totalSum);
