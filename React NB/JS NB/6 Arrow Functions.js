@@ -115,3 +115,6 @@ function sumArray(arr) {
     }
     return total;
 }
+
+let numbers = [5, 10, 15];
+let totalSum = sumArray(numbers);
