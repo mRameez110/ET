@@ -108,14 +108,18 @@
 
 
 // utility function: sum of array values
-function sumArray(arr) {
-    let total = 0;
-    for (let i = 0; i < arr.length; i++) {
-        total += arr[i];
-    }
-    return total;
-}
+// function sumArray(arr) {
+//     let total = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         total += arr[i];
+//     }
+//     return total;
+// }
 
-let numbers = [5, 10, 15];
-let totalSum = sumArray(numbers);
-console.log("Total Sum =", totalSum);
+// let numbers = [5, 10, 15];
+// let totalSum = sumArray(numbers);
+// console.log("Total Sum =", totalSum);
+
+
+// functional programming version using reduce
+const sumArrayFP = arr => arr.reduce((acc, curr) => acc + curr, 0);
