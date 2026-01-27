@@ -92,6 +92,14 @@
 // let ans = sum(10, 20);
 // console.log(ans);
 
-let mod = (x, y) => x % y;
-let ans = mod(10, 3);
-console.log(ans);
+// let mod = (x, y) => x % y;
+// let ans = mod(10, 3);
+// console.log(ans);
+
+
+// Normal Functions
+function sum(x, y){
+    return x + y;
+}
+
+
