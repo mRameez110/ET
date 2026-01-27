@@ -102,4 +102,5 @@ function sum(x, y){
     return x + y;
 }
 
-
+let ans = sum(10, 20);
+console.log(ans)
