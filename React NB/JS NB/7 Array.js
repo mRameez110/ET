@@ -23,3 +23,4 @@ array.sort((x, y) => {
 // -1(NEG) LEFT
 // +1(POS) RIGHT
 // 0 SAME
+console.log(array);
