@@ -19,3 +19,7 @@ array.sort((x, y) => {
     else
         0;
 });
+
+// -1(NEG) LEFT
+// +1(POS) RIGHT
+// 0 SAME
