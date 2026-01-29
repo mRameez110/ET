@@ -32,3 +32,4 @@
 
 let array = ["Zubair", "Ali", "Bilal"];
 array.sort();
+console.log(array);
