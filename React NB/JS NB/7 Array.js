@@ -26,6 +26,9 @@
 // console.log(array);
 
 
-let array = [30, 20, 10, 90, 5 , 3];
+// let array = [30, 20, 10, 90, 5 , 3];
+// array.sort();
+// console.log(array);
+
+let array = ["Zubair", "Ali", "Bilal"];
 array.sort();
-console.log(array);
