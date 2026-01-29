@@ -28,3 +28,4 @@
 
 let array = [30, 20, 10, 90, 5 , 3];
 array.sort();
+console.log(array);
