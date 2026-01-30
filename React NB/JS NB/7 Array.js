@@ -53,6 +53,13 @@ let marks = [10, 20, 30, 40, 30, 50];
 
 // value-based search using filter
 
+// let val = 30;
+// let ans = marks.filter(x => x === val);
+// console.log(ans);
+
+
 let val = 30;
-let ans = marks.filter(x => x === val);
+let ans = marks.filter(x => {
+ return  x === val
+});
 console.log(ans);
