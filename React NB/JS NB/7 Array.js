@@ -30,6 +30,12 @@
 // array.sort();
 // console.log(array);
 
-let array = ["Zubair", "Ali", "Bilal"];
-array.sort();
-console.log(array);
+// let array = ["Zubair", "Ali", "Bilal"];
+// array.sort();
+// console.log(array);
+
+
+// push and pop operations
+
+
+
