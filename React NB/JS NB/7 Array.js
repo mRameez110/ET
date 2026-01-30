@@ -44,8 +44,12 @@
 
 // shift and unshift operations
 
-let marks = [10, 20, 30, 40, 30, 50];
+// let marks = [10, 20, 30, 40, 30, 50];
 
-marks.shift(); // remove first element from array
-marks.unshift(80); // add
-console.log(marks);
+// marks.shift(); // remove first element from array
+// marks.unshift(80); // add
+// console.log(marks);
+
+
+// value-based search using filter
+
