@@ -36,10 +36,13 @@
 
 
 // push and pop operations
-let marks = [];
-marks.push({id: 1, title: "LED TV"});
-marks.push({id: 2, title: "Mobile"});
-marks.pop();
-console.log(marks);
+// let marks = [];
+// marks.push({id: 1, title: "LED TV"});
+// marks.push({id: 2, title: "Mobile"});
+// marks.pop();
+// console.log(marks);
 
 // shift and unshift operations
+
+let marks = [10, 20, 30, 40, 30, 50];
+
