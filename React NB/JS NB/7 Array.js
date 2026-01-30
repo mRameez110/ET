@@ -44,7 +44,7 @@
 
 // shift and unshift operations
 
-// let marks = [10, 20, 30, 40, 30, 50];
+let marks = [10, 20, 30, 40, 30, 50];
 
 // marks.shift(); // remove first element from array
 // marks.unshift(80); // add
@@ -53,3 +53,6 @@
 
 // value-based search using filter
 
+let val = 30;
+let ans = marks.filter(x => x === val);
+console.log(ans);
