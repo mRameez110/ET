@@ -58,8 +58,17 @@ let marks = [10, 20, 30, 40, 30, 50];
 // console.log(ans);
 
 
+// let val = 30;
+// let ans = marks.filter(x => {
+//  return  x === val
+// });
+// console.log(ans);
+
 let val = 30;
 let ans = marks.filter(x => {
- return  x === val
+    if(x === val)
+        return true;
+    else
+        return false;
 });
 console.log(ans);
