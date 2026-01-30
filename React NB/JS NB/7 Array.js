@@ -42,4 +42,4 @@ marks.push({id: 2, title: "Mobile"});
 marks.pop();
 console.log(marks);
 
-
+// shift and unshift operations
