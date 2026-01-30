@@ -40,5 +40,6 @@ let marks = [];
 marks.push({id: 1, title: "LED TV"});
 marks.push({id: 2, title: "Mobile"});
 marks.pop();
+console.log(marks);
 
 
